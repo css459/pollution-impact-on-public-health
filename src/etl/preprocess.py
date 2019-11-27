@@ -5,11 +5,12 @@
 #
 
 import json
+
 import geocoder
 
 
 # TODO
-def make_lat_lon_map(inputs, output_json_file='data/latlon.json', load_from=None):
+def make_lat_lon_map(inputs, output_json_file='data/latlon.json', load_from='data/latlon.json'):
     """
     Queries OpenStreetMap for Lat/Lon pairs given a list
     of input queries. The results are incrementally written
