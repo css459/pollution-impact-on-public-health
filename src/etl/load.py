@@ -96,6 +96,7 @@ def load_cancer():
             items = l.split('|')
             manual[items[0].strip()] = items[1].strip()
 
+    # MSA Conversion Policy
     for t in tmp:
         t = str(t)
         t = t.replace('-', ' ')
@@ -127,11 +128,37 @@ def load_life_exp():
     path = os.path.join(RAW_DATA, 'health', 'U.S._Life_Expectancy_at_Birth_by_State_and_Census_Tract_-_2010-2015.csv')
     life = pd.read_csv(path)
 
+    # Select Relevant
+    sel = ['State', 'County', 'Life Expectancy',
+           'Life Expectancy Range']
+    life = life[sel].dropna()
+
+    # Fix column names
+    life.columns = [c.replace(' ', '_').lower() for c in life.columns]
+
+    # Fix Life Exp Range to Min and Max
+    rng = list(life.life_expectancy_range)
+    print(rng)
+    rng_max = [float(str(r).split('-')[1].strip()) for r in rng]
+    rng_min = [float(str(r).split('-')[0].strip()) for r in rng]
+
+    life['life_expectancy_max'] = rng_max
+    life['life_expectancy_min'] = rng_min
+    life = life.rename(columns={'life_expectancy': 'life_expectancy_avg'})
+
+    # TODO: Group by state/county --> mean
+    life = life.groupby(['state', 'county']).mean()
+
+    return life.drop('life_expectancy_range', axis=1).dropna()
+
+
 if __name__ == '__main__':
     out = load_life_exp()
-    # print('[ INF ] Starting Lat Lon Table for Cancer')
+    print('[ INF ] Starting Lat Lon Table for Life Exp')
+    loc = list(out.state + ", " + out.county)
     # loc = out.msa
-    # loc = list(set(loc))
+    loc = list(set(loc))
 
-    # from src.etl.preprocess import make_lat_lon_map
-    # make_lat_lon_map(loc)
+    from src.etl.preprocess import make_lat_lon_map
+
+    make_lat_lon_map(loc)
