@@ -137,7 +137,7 @@ def load_cancer():
         if len(areas) > 1:
             area = t.split()[0] + ' ' + t.split()[1]
         else:
-            area = area[0]
+            area = areas[0]
 
         tt = area + ", " + state
 
@@ -164,7 +164,6 @@ def load_life_exp():
 
     # Fix Life Exp Range to Min and Max
     rng = list(life.life_expectancy_range)
-    print(rng)
     rng_max = [float(str(r).split('-')[1].strip()) for r in rng]
     rng_min = [float(str(r).split('-')[0].strip()) for r in rng]
 
@@ -187,9 +186,9 @@ def load_cancer_tri_aqi():
         else:
             return [None, None]
 
-    def change_precision(a, prec=4):
+    def change_precision(a, prec=3):
         if None not in a:
-            return [round(e, prec) for e in a]
+            return [round(float(e), prec) for e in a]
         else:
             return None
 
@@ -202,8 +201,14 @@ def load_cancer_tri_aqi():
     cancer['lat'] = change_precision(lat)
     cancer['lon'] = change_precision(lon)
 
+    print(cancer)
+
     print("[ LOAD ] Loading TRI...")
     tri = load_tri()
+    tri['lat'] = change_precision(list(tri.lat))
+    tri['lon'] = change_precision(list(tri.lon))
+
+    print(tri)
 
     print("[ LOAD ] Loading AQI...")
     aqi = load_aqi()
@@ -214,6 +219,8 @@ def load_cancer_tri_aqi():
     aqi['lat'] = change_precision(lat)
     aqi['lon'] = change_precision(lon)
 
+    print(aqi)
+
     print("[ LOAD ] Loading Life Exp...")
     life = load_life_exp()
     loc = list(life.state + ", " + life.county)
@@ -223,23 +230,34 @@ def load_cancer_tri_aqi():
     life['lat'] = change_precision(lat)
     life['lon'] = change_precision(lon)
 
+    print(life)
+
+    # Group up
+    aqi = aqi.dropna().groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
+    tri = tri.dropna().groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
+    life = life.dropna().groupby(by=['lat', 'lon'], as_index=False).sum()
+    cancer = cancer.dropna().groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
+
     # Split up the join due to memory constraint
-    joined = pd.concat([aqi, tri])
-    merged = joined.groupby(by=['year', 'lat', 'lon']).sum()
+    joined = pd.concat([aqi, tri, cancer], join='outer', ignore_index=True)
+    merged = joined.groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
+
+    print(merged)
 
     # merged = pd.merge(aqi, tri, on=['year', 'lat', 'lon'])
     # merged = pd.merge(merged, cancer, on=['year', 'lat', 'lon'])
     # merged = pd.merge(merged, life, on=['year', 'lat', 'lon'])
+    # merged3 = pd.join([merged, life]).groupby(by=['lat', 'lon']).sum()
 
-    joined = pd.concat([cancer, life])
-    merged2 = joined.groupby(by=['year', 'lat', 'lon']).sum()
+    merged = pd.concat([merged, life], join='outer', ignore_index=True)
+    merged = merged.groupby(by=['lat', 'lon'], as_index=False).sum()
 
-    merged3 = pd.concat([merged, merged2]).groupby(by=['year', 'lat', 'lon']).sum()
-    merged = merged3
+    print(merged)
 
     merged = merged.dropna()
     merged.to_csv('data/merged.csv')
 
+    # TODO: Fix merge
     return merged
 
 
