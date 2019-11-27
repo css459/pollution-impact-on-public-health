@@ -73,3 +73,9 @@ def load_aqi():
 
 if __name__ == '__main__':
     out = load_aqi()
+    print('[ INF ] Starting Lat Lon Table for AQI')
+    loc = out.state_name + ", " + out.county_name
+    loc = list(set(loc))
+
+    from src.etl.preprocess import make_lat_lon_map
+    make_lat_lon_map(loc)

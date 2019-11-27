@@ -1,0 +1,4606 @@
+{
+    "Colorado, Alamosa": [
+        37.469877,
+        -105.8696009
+    ],
+    "Ohio, Lawrence": [
+        38.6065461,
+        -82.5702511
+    ],
+    "Oklahoma, Oklahoma": [
+        35.5533328,
+        -97.4367741
+    ],
+    "Louisiana, Calcasieu": [
+        30.2232015,
+        -93.3434067
+    ],
+    "New Jersey, Middlesex": [
+        40.4279708,
+        -74.3963102
+    ],
+    "Rhode Island, Providence": [
+        41.8239891,
+        -71.4128343
+    ],
+    "Iowa, Clinton": [
+        41.8444735,
+        -90.1887379
+    ],
+    "Tennessee, Blount": [
+        35.6719722,
+        -83.9314465
+    ],
+    "California, Yolo": [
+        38.7184542,
+        -121.9059001
+    ],
+    "Wisconsin, Sheboygan": [
+        43.7508284,
+        -87.71453
+    ],
+    "Indiana, Washington": [
+        38.6592152,
+        -87.172789
+    ],
+    "Idaho, Jerome": [
+        42.702266,
+        -114.2867043
+    ],
+    "Florida, Manatee": [
+        27.5213933,
+        -82.3801566
+    ],
+    "Illinois, Cook": [
+        41.8197385,
+        -87.756525
+    ],
+    "North Carolina, Graham": [
+        35.359542,
+        -83.8337785
+    ],
+    "Texas, Randall": [
+        34.9444713,
+        -101.8850309
+    ],
+    "Colorado, Pueblo": [
+        20.0338271,
+        -97.3491025
+    ],
+    "New York, Chautauqua": [
+        42.2894671,
+        -79.421728
+    ],
+    "Massachusetts, Berkshire": [
+        42.3999954,
+        -73.2322639
+    ],
+    "Maine, Washington": [
+        44.9744397,
+        -67.6287553
+    ],
+    "Tennessee, Anderson": [
+        36.1063226,
+        -84.1849939
+    ],
+    "California, Mendocino": [
+        39.3176491,
+        -123.4126399
+    ],
+    "Alabama, Etowah": [
+        34.0371404,
+        -86.022147
+    ],
+    "Ohio, Scioto": [
+        38.823448,
+        -83.017141
+    ],
+    "Maine, Sagadahoc": [
+        43.9900158,
+        -69.8654643
+    ],
+    "Virginia, Prince William": [
+        38.7389846,
+        -77.5536743
+    ],
+    "Wisconsin, Kenosha": [
+        42.5846773,
+        -87.8212263
+    ],
+    "Montana, Yellowstone": [
+        45.9645464,
+        -108.276076
+    ],
+    "Arkansas, Pulaski": [
+        34.7550166,
+        -92.3003472
+    ],
+    "Texas, Gregg": [
+        32.4492408,
+        -94.8532848
+    ],
+    "Idaho, Blaine": [
+        43.3336455,
+        -113.8808311
+    ],
+    "Massachusetts, Bristol": [
+        41.7425538,
+        -71.0856545
+    ],
+    "Indiana, Gibson": [
+        38.3079744,
+        -87.5775949
+    ],
+    "Oregon, Columbia": [
+        45.9280203,
+        -123.082293
+    ],
+    "Idaho, Butte": [
+        43.6989304,
+        -113.2210324
+    ],
+    "Maryland, Dorchester": [
+        38.3930694,
+        -76.0995677
+    ],
+    "Oklahoma, Carter": [
+        34.2330314,
+        -97.2789479
+    ],
+    "New York, Queens": [
+        40.7498243,
+        -73.7976337
+    ],
+    "Texas, Maverick": [
+        28.792861,
+        -100.3110817
+    ],
+    "Colorado, La Plata": [
+        37.2889732,
+        -107.8539029
+    ],
+    "Texas, Hutchinson": [
+        35.8148236,
+        -101.34844
+    ],
+    "Colorado, Summit": [
+        39.6070951,
+        -106.0636654
+    ],
+    "Tennessee, Sullivan": [
+        36.4966673,
+        -82.286903
+    ],
+    "Colorado, Teller": [
+        38.889575,
+        -105.1797307
+    ],
+    "Connecticut, Fairfield": [
+        41.2943069,
+        -73.37486
+    ],
+    "New York, Oneida": [
+        43.2144051,
+        -75.4039155
+    ],
+    "Indiana, Henry": [
+        39.9297608,
+        -85.4043542
+    ],
+    "Oregon, Douglas": [
+        43.1922115,
+        -123.1135963
+    ],
+    "Wisconsin, Door": [
+        44.7615925,
+        -87.5329747
+    ],
+    "Texas, Wichita": [
+        33.9516534,
+        -98.7088886
+    ],
+    "Michigan, Kent": [
+        43.0024013,
+        -85.5502718
+    ],
+    "California, San Luis Obispo": [
+        35.272584,
+        -120.657094365302
+    ],
+    "Wisconsin, Milwaukee": [
+        43.0349931,
+        -87.922497
+    ],
+    "Wisconsin, Jefferson": [
+        43.0224668,
+        -88.7673031
+    ],
+    "Missouri, Sainte Genevieve": [
+        37.88958,
+        -90.1856637
+    ],
+    "Wisconsin, Manitowoc": [
+        44.0998341,
+        -87.827992
+    ],
+    "New Mexico, Taos": [
+        36.4072377,
+        -105.5732847
+    ],
+    "New York, Ulster": [
+        41.8689317,
+        -74.2618518
+    ],
+    "Louisiana, Livingston": [
+        30.4158699,
+        -90.7189344
+    ],
+    "North Dakota, Burleigh": [
+        46.9498874,
+        -100.5127667
+    ],
+    "Virginia, Warren": [
+        38.9131907,
+        -78.2096656
+    ],
+    "Virginia, Loudoun": [
+        39.0984586,
+        -77.6705008
+    ],
+    "Mississippi, Bolivar": [
+        33.7702263,
+        -90.8519798
+    ],
+    "Oregon, Coos": [
+        43.2184144,
+        -124.109621
+    ],
+    "Michigan, Chippewa": [
+        46.3111149,
+        -84.6428564
+    ],
+    "Oregon, Washington": [
+        45.5601883,
+        -123.0587907
+    ],
+    "Alabama, Clay": [
+        33.2423393,
+        -85.819651
+    ],
+    "Tennessee, Knox": [
+        35.9859998,
+        -83.9375598
+    ],
+    "North Carolina, Davie": [
+        35.9375154,
+        -80.5464948
+    ],
+    "Ohio, Wood": [
+        41.2776661,
+        -83.6643025
+    ],
+    "New Jersey, Warren": [
+        40.8602222,
+        -74.9720493
+    ],
+    "Pennsylvania, Indiana": [
+        40.6424116,
+        -79.1262839
+    ],
+    "Texas, Hood": [
+        32.4107555,
+        -97.828282
+    ],
+    "Nevada, Washoe": [
+        40.5849048,
+        -119.6131606
+    ],
+    "Ohio, Tuscarawas": [
+        40.3759469,
+        -81.464888
+    ],
+    "Indiana, Madison": [
+        40.1624531,
+        -85.7260804
+    ],
+    "Indiana, Daviess": [
+        38.6776099,
+        -87.0813484
+    ],
+    "Missouri, Clay": [
+        39.3187409,
+        -94.4046405
+    ],
+    "Minnesota, Mille Lacs": [
+        45.9311972,
+        -93.640356
+    ],
+    "California, Santa Cruz": [
+        37.050096,
+        -121.9905908
+    ],
+    "Colorado, Park": [
+        38.7251776,
+        -105.6077167
+    ],
+    "Indiana, Warrick": [
+        38.0906065,
+        -87.2758933
+    ],
+    "Illinois, Jo Daviess": [
+        42.3506664,
+        -90.1743742
+    ],
+    "Puerto Rico, Humacao": [
+        18.13807385,
+        -65.81963689761
+    ],
+    "Kentucky, Pike": [
+        37.5726028,
+        -85.1551411
+    ],
+    "Iowa, Van Buren": [
+        40.749202,
+        -91.9689529
+    ],
+    "Minnesota, Rock": [
+        43.6733632,
+        -96.2574328
+    ],
+    "California, Plumas": [
+        39.9430988,
+        -120.8059521
+    ],
+    "California, Glenn": [
+        39.5912766,
+        -122.3778662
+    ],
+    "Vermont, Windham": [
+        43.0028875,
+        -72.7634259
+    ],
+    "Hawaii, Hawaii": [
+        19.58955475,
+        -155.448698303485
+    ],
+    "Massachusetts, Norfolk": [
+        42.1538607,
+        -71.1828015
+    ],
+    "Indiana, Floyd": [
+        38.299,
+        -85.8933233593055
+    ],
+    "Texas, Victoria": [
+        28.8026443,
+        -96.9766308
+    ],
+    "Texas, Milam": [
+        30.7626867,
+        -96.9981706
+    ],
+    "Missouri, Cedar": [
+        37.7084225,
+        -93.861222
+    ],
+    "Idaho, Benewah": [
+        47.2162961,
+        -116.6654616
+    ],
+    "Pennsylvania, Montgomery": [
+        40.2154361,
+        -75.3702305
+    ],
+    "North Carolina, Gaston": [
+        35.2849659,
+        -81.179014
+    ],
+    "Oregon, Jefferson": [
+        44.6072499,
+        -121.2463145
+    ],
+    "Arkansas, Phillips": [
+        34.4427373,
+        -90.8331287
+    ],
+    "Florida, Palm Beach": [
+        26.6279798,
+        -80.4494174
+    ],
+    "Virginia, Page": [
+        38.6002354,
+        -78.5016516
+    ],
+    "Pennsylvania, Northampton": [
+        40.7451356,
+        -75.3289302
+    ],
+    "Ohio, Crawford": [
+        40.8705909,
+        -82.9065596
+    ],
+    "Nebraska, Dawson": [
+        40.8776438,
+        -99.8505693
+    ],
+    "New Jersey, Cumberland": [
+        39.3183341,
+        -75.1623239
+    ],
+    "Puerto Rico, Salinas": [
+        17.9774677,
+        -66.2978873
+    ],
+    "Maryland, Cecil": [
+        39.5729428,
+        -75.9381806
+    ],
+    "North Carolina, Forsyth": [
+        36.1476399,
+        -80.2415712
+    ],
+    "Missouri, Jackson": [
+        39.03540865,
+        -94.3604862534099
+    ],
+    "Oklahoma, Adair": [
+        35.8783136,
+        -94.6567402
+    ],
+    "Pennsylvania, Lehigh": [
+        40.6096215,
+        -75.6048728
+    ],
+    "Utah, Garfield": [
+        37.8018067,
+        -111.5853156
+    ],
+    "North Carolina, Edgecombe": [
+        35.9213841,
+        -77.5971695
+    ],
+    "Oregon, Grant": [
+        44.464824,
+        -119.0565278
+    ],
+    "Michigan, Bay": [
+        43.6211955,
+        -84.6824346
+    ],
+    "Oklahoma, Comanche": [
+        34.6557505,
+        -98.4485103
+    ],
+    "South Carolina, Lexington": [
+        33.98390015,
+        -81.2260108261701
+    ],
+    "North Carolina, Martin": [
+        35.6729639,
+        -79.0392919
+    ],
+    "Arkansas, White": [
+        35.2463042,
+        -91.7169687
+    ],
+    "Kansas, Montgomery": [
+        37.1983948,
+        -95.7628341
+    ],
+    "Colorado, Douglas": [
+        39.3420437,
+        -104.9468945
+    ],
+    "North Carolina, Johnston": [
+        35.5285816,
+        -78.3768021
+    ],
+    "Wyoming, Johnson": [
+        44.0155638,
+        -106.6140815
+    ],
+    "Georgia, Richmond": [
+        33.385076,
+        -82.092079585307
+    ],
+    "California, Humboldt": [
+        40.5997415,
+        -123.8997734
+    ],
+    "Illinois, Saint Clair": [
+        38.4616972,
+        -89.9324347
+    ],
+    "New Jersey, Hunterdon": [
+        40.5770634,
+        -74.9261552
+    ],
+    "Hawaii, Maui": [
+        20.8029568,
+        -156.310683316022
+    ],
+    "California, Colusa": [
+        39.1465578,
+        -122.2209563
+    ],
+    "Idaho, Kootenai": [
+        47.654857,
+        -116.7162916
+    ],
+    "Pennsylvania, Dauphin": [
+        40.398036,
+        -76.8115168
+    ],
+    "New Jersey, Mercer": [
+        40.2807177,
+        -74.7033717
+    ],
+    "Washington, Lewis": [
+        46.5612011,
+        -122.4225561
+    ],
+    "Texas, Howard": [
+        32.3047833,
+        -101.4271085
+    ],
+    "Wyoming, Laramie": [
+        41.311367,
+        -105.591101
+    ],
+    "Wisconsin, Florence": [
+        45.8379973,
+        -88.3902943
+    ],
+    "California, Santa Barbara": [
+        34.4221319,
+        -119.7026673
+    ],
+    "Wisconsin, Washington": [
+        43.3734986,
+        -88.2370888
+    ],
+    "Louisiana, West Baton Rouge": [
+        30.4514623,
+        -91.3261882
+    ],
+    "North Carolina, Haywood": [
+        35.5456202,
+        -82.9907823
+    ],
+    "Alabama, Talladega": [
+        33.4359416,
+        -86.1058048
+    ],
+    "North Dakota, Dunn": [
+        47.30612,
+        -102.6112348
+    ],
+    "Alabama, Baldwin": [
+        30.5677527,
+        -87.7324392
+    ],
+    "Nevada, Elko": [
+        40.8324188,
+        -115.7630982
+    ],
+    "Washington, Adams": [
+        46.9723633,
+        -118.5934644
+    ],
+    "Utah, Duchesne": [
+        40.2960433,
+        -110.4715153
+    ],
+    "Kentucky, Hardin": [
+        37.6645815,
+        -85.9634901
+    ],
+    "Indiana, Johnson": [
+        39.4891804,
+        -86.1079903
+    ],
+    "Michigan, Clinton": [
+        42.9435238,
+        -84.6125345
+    ],
+    "Florida, Volusia": [
+        29.0533409,
+        -81.1310761
+    ],
+    "Alaska, Matanuska-Susitna ": [
+        62.3402481,
+        -149.4793288
+    ],
+    "South Carolina, Abbeville": [
+        34.1779495,
+        -82.3792463
+    ],
+    "Nebraska, Washington": [
+        41.5407766,
+        -96.246548
+    ],
+    "Texas, Collin": [
+        33.1609629,
+        -96.6060984
+    ],
+    "Texas, Polk": [
+        30.7642828,
+        -94.8192175
+    ],
+    "Montana, Fergus": [
+        47.2128617,
+        -109.2175566
+    ],
+    "Ohio, Clinton": [
+        39.4259873,
+        -83.8445792
+    ],
+    "Georgia, Paulding": [
+        33.8908526,
+        -84.8569161
+    ],
+    "New Mexico, Sandoval": [
+        35.5910806,
+        -106.8472167
+    ],
+    "Texas, El Paso": [
+        31.7600372,
+        -106.487287
+    ],
+    "South Carolina, Darlington": [
+        34.2998762,
+        -79.8761741
+    ],
+    "Florida, Martin": [
+        27.7567667,
+        -81.4639835
+    ],
+    "Maine, Penobscot": [
+        45.2930166,
+        -68.5957766
+    ],
+    "North Dakota, Burke": [
+        48.7882181,
+        -102.5295867
+    ],
+    "Kentucky, Hancock": [
+        37.8189002,
+        -86.7532261
+    ],
+    "Colorado, Chaffee": [
+        38.7413025,
+        -106.1825012
+    ],
+    "Oklahoma, Tulsa": [
+        36.1556805,
+        -95.9929113
+    ],
+    "Tennessee, Rutherford": [
+        35.855716,
+        -86.4209219
+    ],
+    "Idaho, Valley": [
+        43.6447642,
+        -114.0154071
+    ],
+    "Florida, Alachua": [
+        29.675568,
+        -82.3640109
+    ],
+    "Maryland, Harford": [
+        39.548545,
+        -76.3048991
+    ],
+    "Florida, Brevard": [
+        28.2446658,
+        -80.728624
+    ],
+    "New Hampshire, Grafton": [
+        43.9702453,
+        -71.8742626
+    ],
+    "Georgia, Murray": [
+        34.7851861,
+        -84.7352262
+    ],
+    "Illinois, Jersey": [
+        39.0848464,
+        -90.3303344
+    ],
+    "Georgia, Bibb": [
+        32.8095879,
+        -83.694562
+    ],
+    "Virginia, Giles": [
+        37.3088528,
+        -80.7098781
+    ],
+    "Kentucky, Bell": [
+        36.7370344,
+        -83.6491695
+    ],
+    "Indiana, Spencer": [
+        38.0288806,
+        -86.9976446
+    ],
+    "Indiana, Elkhart": [
+        41.6012796,
+        -85.8590603
+    ],
+    "Minnesota, Stearns": [
+        45.535326,
+        -94.6139422
+    ],
+    "South Carolina, Aiken": [
+        33.5598586,
+        -81.721952
+    ],
+    "Utah, Wayne": [
+        38.3079634,
+        -111.1243088
+    ],
+    "California, Nevada": [
+        39.3540335,
+        -120.8089843
+    ],
+    "Pennsylvania, Lackawanna": [
+        41.4406084,
+        -75.6260271
+    ],
+    "South Carolina, Anderson": [
+        34.5068601,
+        -82.6506264
+    ],
+    "South Carolina, Charleston": [
+        32.7876012,
+        -79.9402728
+    ],
+    "New Jersey, Atlantic": [
+        39.5143268,
+        -74.6632883
+    ],
+    "Tennessee, Lawrence": [
+        35.2256914,
+        -87.4016388
+    ],
+    "Washington, Benton": [
+        46.1691702,
+        -119.5286424
+    ],
+    "Wisconsin, Walworth": [
+        42.6711513,
+        -88.5467715
+    ],
+    "Nevada, Clark": [
+        36.3467726,
+        -115.0907378
+    ],
+    "South Dakota, Jackson": [
+        43.668546,
+        -101.6595883
+    ],
+    "Montana, Rosebud": [
+        46.3894251,
+        -106.6296053
+    ],
+    "Louisiana, Tangipahoa": [
+        30.6323024,
+        -90.4315754
+    ],
+    "California, Imperial": [
+        33.0305487,
+        -115.3595666
+    ],
+    "Colorado, Mesa": [
+        39.0589084,
+        -108.565996
+    ],
+    "Michigan, Monroe": [
+        41.9153358,
+        -83.5135665
+    ],
+    "Missouri, Lincoln": [
+        39.0605477,
+        -90.959359
+    ],
+    "Wisconsin, Ozaukee": [
+        43.3569041,
+        -87.9579748
+    ],
+    "North Dakota, Mercer": [
+        47.3347663,
+        -101.8650031
+    ],
+    "Texas, Hidalgo": [
+        26.3530256,
+        -98.216445
+    ],
+    "California, Stanislaus": [
+        37.5500871,
+        -121.0501425
+    ],
+    "Florida, Nassau": [
+        30.6624329,
+        -81.7707334
+    ],
+    "California, Kings": [
+        36.0784807,
+        -119.7956342
+    ],
+    "Illinois, Winnebago": [
+        42.3255276,
+        -89.1496574
+    ],
+    "Oregon, Crook": [
+        44.1460291,
+        -120.3839476
+    ],
+    "Nevada, Mineral": [
+        38.4815162,
+        -118.498262
+    ],
+    "New Jersey, Bergen": [
+        40.9678345,
+        -74.0563254
+    ],
+    "Colorado, Montrose": [
+        38.4375391,
+        -108.2403855
+    ],
+    "Missouri, Iron": [
+        37.575509,
+        -90.6953467
+    ],
+    "Washington, Whitman": [
+        46.9428831,
+        -117.5286172
+    ],
+    "Virginia, King William": [
+        37.6940722,
+        -77.0690284
+    ],
+    "Texas, Webb": [
+        27.6983621,
+        -99.2523577
+    ],
+    "Wisconsin, Trempealeau": [
+        44.2782406,
+        -91.3828806
+    ],
+    "Georgia, Coffee": [
+        42.2658533,
+        42.7183674
+    ],
+    "Michigan, Kalamazoo": [
+        42.291707,
+        -85.5872286
+    ],
+    "Oklahoma, Creek": [
+        34.9550817,
+        -97.2684063
+    ],
+    "Montana, Ravalli": [
+        46.0757223,
+        -114.1139453
+    ],
+    "Oklahoma, Love": [
+        33.9852998,
+        -97.2526992
+    ],
+    "Montana, Lewis and Clark": [
+        47.2117026,
+        -112.4768049
+    ],
+    "New Mexico, Chaves": [
+        33.2993426,
+        -104.5133481
+    ],
+    "North Carolina, Guilford": [
+        36.0875688,
+        -79.7888515
+    ],
+    "Arizona, Mohave": [
+        35.7218038,
+        -113.8271174
+    ],
+    "Florida, Lee": [
+        26.5999265,
+        -81.8823135
+    ],
+    "Colorado, Weld": [
+        40.5632344,
+        -104.4835287
+    ],
+    "Connecticut, Middlesex": [
+        41.4510811,
+        -72.5528113
+    ],
+    "Arkansas, Newton": [
+        35.918468,
+        -93.2273047
+    ],
+    "Maryland, Prince George's": [
+        38.803929,
+        -76.8518695
+    ],
+    "South Dakota, Brown": [
+        45.5832968,
+        -98.3674786
+    ],
+    "Massachusetts, Plymouth": [
+        41.9426657,
+        -70.7618592
+    ],
+    "Missouri, Taney": [
+        36.6563729,
+        -93.0665776
+    ],
+    "New Jersey, Ocean": [
+        39.977818,
+        -74.3319287
+    ],
+    "Kentucky, Perry": [
+        37.2203608,
+        -83.1640699
+    ],
+    "Wyoming, Converse": [
+        43.0202459,
+        -105.5046207
+    ],
+    "Washington, Pend Oreille": [
+        48.5188671,
+        -117.2778631
+    ],
+    "Wisconsin, Forest": [
+        44.4308975,
+        -89.6884637
+    ],
+    "New York, Richmond": [
+        42.7969996,
+        -77.5237428
+    ],
+    "South Carolina, York": [
+        34.9603293,
+        -81.1655408
+    ],
+    "Michigan, Allegan": [
+        42.5867203,
+        -85.8861492
+    ],
+    "Florida, Okaloosa": [
+        30.6765961,
+        -86.6037748
+    ],
+    "Idaho, Shoshone": [
+        47.305486,
+        -115.9583164
+    ],
+    "New Jersey, Camden": [
+        39.9448402,
+        -75.1198911
+    ],
+    "Michigan, St. Clair": [
+        42.9426715,
+        -82.6283554
+    ],
+    "Virginia, Hampton City": [
+        37.0520315,
+        -76.2856365
+    ],
+    "Wisconsin, Jackson": [
+        44.3016847,
+        -90.8085198
+    ],
+    "Maryland, Garrett": [
+        39.544087,
+        -79.2496976
+    ],
+    "Wisconsin, Vernon": [
+        43.5811229,
+        -90.8231247
+    ],
+    "Ohio, Washington": [
+        39.4782641,
+        -81.5488945
+    ],
+    "Alaska, Juneau ": [
+        58.3019496,
+        -134.419734
+    ],
+    "Louisiana, Ouachita": [
+        32.4790511,
+        -92.1615004
+    ],
+    "Virginia, Culpeper": [
+        38.4912207,
+        -77.9618216
+    ],
+    "Oklahoma, Muskogee": [
+        35.7478769,
+        -95.3696909
+    ],
+    "Georgia, Chatham": [
+        31.9668887,
+        -81.0626008
+    ],
+    "Louisiana, Pointe Coupee": [
+        30.6194283,
+        -91.5740887
+    ],
+    "Massachusetts, Hampden": [
+        42.1285315,
+        -72.6063441
+    ],
+    "North Carolina, Macon": [
+        35.1436639,
+        -83.3977297
+    ],
+    "Texas, Montgomery": [
+        30.301949,
+        -95.5065944
+    ],
+    "California, El Dorado": [
+        38.7574137,
+        -120.5276129
+    ],
+    "North Carolina, Swain": [
+        35.45819,
+        -83.466275
+    ],
+    "South Dakota, Brookings": [
+        44.311461,
+        -96.79844
+    ],
+    "New Jersey, Essex": [
+        40.7913922,
+        -74.2479444
+    ],
+    "Illinois, Champaign": [
+        40.1164205,
+        -88.2433829
+    ],
+    "Oregon, Wallowa": [
+        45.5582608,
+        -117.1990173
+    ],
+    "Virginia, Bristol City": [
+        36.6176148,
+        -82.1484049
+    ],
+    "Idaho, Bonner": [
+        48.2663565,
+        -116.5952716
+    ],
+    "Alabama, Houston": [
+        31.1355603,
+        -85.2654592
+    ],
+    "Idaho, Canyon": [
+        43.6435692,
+        -116.7017144
+    ],
+    "South Dakota, Union": [
+        42.8717888,
+        -96.6772947
+    ],
+    "North Carolina, Lincoln": [
+        35.4866424,
+        -81.2062724
+    ],
+    "Indiana, Jasper": [
+        41.0321808,
+        -87.1066598
+    ],
+    "Maryland, Worcester": [
+        38.2231182,
+        -75.3319465
+    ],
+    "West Virginia, Greenbrier": [
+        37.961175,
+        -80.450934
+    ],
+    "Wisconsin, Dane": [
+        43.0709273,
+        -89.4322174
+    ],
+    "New York, Chemung": [
+        42.1384667,
+        -76.7725493
+    ],
+    "Texas, Jeff Davis": [
+        30.7018281,
+        -104.1501698
+    ],
+    "Indiana, Jackson": [
+        38.9023184,
+        -86.0650856
+    ],
+    "Utah, Weber": [
+        41.2728039,
+        -111.8860648
+    ],
+    "Wyoming, Teton": [
+        43.9133416,
+        -110.6367905
+    ],
+    "Tennessee, Meigs": [
+        35.51017,
+        -84.8109718
+    ],
+    "North Dakota, Ward": [
+        48.2488309,
+        -101.6242607
+    ],
+    "Arizona, La Paz": [
+        33.7923828,
+        -114.0184443
+    ],
+    "Texas, Culberson": [
+        31.4622625,
+        -104.482834
+    ],
+    "North Carolina, Cumberland": [
+        35.0461723,
+        -78.8394255
+    ],
+    "Puerto Rico, Fajardo": [
+        18.3278026,
+        -65.6561832207489
+    ],
+    "Ohio, Athens": [
+        39.355589,
+        -82.0610404
+    ],
+    "Rhode Island, Kent": [
+        41.6722912,
+        -71.602762
+    ],
+    "Alaska, Kenai Peninsula ": [
+        60.0968272,
+        -151.788033
+    ],
+    "Illinois, Lake": [
+        40.0796606,
+        -89.4337288
+    ],
+    "Ohio, Lucas": [
+        41.6508446,
+        -83.621321
+    ],
+    "Minnesota, Winona": [
+        43.9582272,
+        -91.7807784
+    ],
+    "West Virginia, Tucker": [
+        39.1256758,
+        -79.5607117
+    ],
+    "California, San Mateo": [
+        37.496904,
+        -122.3330573
+    ],
+    "Utah, Carbon": [
+        39.6023917,
+        -110.6505023
+    ],
+    "Arizona, Pima": [
+        32.1112624,
+        -111.6546163
+    ],
+    "California, Sacramento": [
+        38.5815719,
+        -121.4943996
+    ],
+    "Colorado, Clear Creek": [
+        39.6754591,
+        -105.6435349
+    ],
+    "Indiana, Pike": [
+        40.3270127,
+        -86.1746933
+    ],
+    "California, Butte": [
+        39.6519275,
+        -121.5858444
+    ],
+    "Kentucky, Fayette": [
+        38.0280648,
+        -84.4722444
+    ],
+    "Arkansas, Van Buren": [
+        35.44441415,
+        -94.3509142689691
+    ],
+    "Missouri, Saint Charles": [
+        38.783029,
+        -90.4822662
+    ],
+    "Iowa, Polk": [
+        41.6765808,
+        -93.5921448
+    ],
+    "Alaska, Fairbanks North Star ": [
+        64.8649039,
+        -146.7751619
+    ],
+    "New York, Putnam": [
+        41.426996,
+        -73.760156
+    ],
+    "Louisiana, Terrebonne": [
+        29.4616211,
+        -90.8705871
+    ],
+    "Arkansas, Garland": [
+        34.5488944,
+        -93.1838539
+    ],
+    "South Carolina, Spartanburg": [
+        34.9498007,
+        -81.9320157
+    ],
+    "Indiana, Whitley": [
+        41.1238216,
+        -85.5035187
+    ],
+    "Texas, Orange": [
+        30.1228634,
+        -93.9041169
+    ],
+    "Texas, Potter": [
+        35.3683354,
+        -101.8776577
+    ],
+    "Mississippi, Yalobusha": [
+        34.0213455,
+        -89.6991703
+    ],
+    "Ohio, Miami": [
+        40.0580258,
+        -84.2236524
+    ],
+    "Washington, Clallam": [
+        47.9998383,
+        -123.7373472
+    ],
+    "Indiana, Posey": [
+        38.0145359,
+        -87.8543645
+    ],
+    "Nebraska, Scotts Bluff": [
+        41.8555787,
+        -103.7088303
+    ],
+    "Alabama, Montgomery": [
+        32.3669656,
+        -86.3006485
+    ],
+    "Mississippi, Harrison": [
+        30.4553392,
+        -89.1313136
+    ],
+    "Georgia, Cobb": [
+        33.9373948,
+        -84.5732006
+    ],
+    "North Carolina, Mitchell": [
+        36.0001181,
+        -82.1349028
+    ],
+    "North Carolina, Yancey": [
+        35.8875402,
+        -82.3035673
+    ],
+    "Ohio, Summit": [
+        41.1457902,
+        -81.5333603
+    ],
+    "Texas, Dallas": [
+        32.7762719,
+        -96.7968559
+    ],
+    "Idaho, Nez Perce": [
+        46.3959861,
+        -116.8072307
+    ],
+    "Kentucky, Franklin": [
+        38.2520423,
+        -84.8633812
+    ],
+    "California, Mariposa": [
+        37.570148,
+        -119.9036592
+    ],
+    "Georgia, Sumter": [
+        32.0485072,
+        -84.1862464
+    ],
+    "Ohio, Mahoning": [
+        40.9830133,
+        -80.7826416
+    ],
+    "Utah, San Juan": [
+        37.5859438,
+        -109.7852018
+    ],
+    "Maine, Franklin": [
+        44.916814,
+        -70.4395797
+    ],
+    "Florida, Baker": [
+        30.3143459,
+        -82.2847163
+    ],
+    "Michigan, Oakland": [
+        42.6618842,
+        -83.3804439
+    ],
+    "Ohio, Greene": [
+        39.6908207,
+        -83.9175037
+    ],
+    "Illinois, Adams": [
+        39.9787786,
+        -91.2110065
+    ],
+    "Ohio, Cuyahoga": [
+        41.4301347,
+        -81.6905558
+    ],
+    "Tennessee, Hamilton": [
+        35.1755638,
+        -85.1940792
+    ],
+    "Indiana, Montgomery": [
+        40.0361447,
+        -86.9007083
+    ],
+    "Washington, Clark": [
+        45.7669047,
+        -122.4940866
+    ],
+    "Montana, Roosevelt": [
+        48.3069516,
+        -104.9709901
+    ],
+    "Missouri, Stoddard": [
+        36.8556646,
+        -89.9451636
+    ],
+    "Virginia, Salem City": [
+        37.279858,
+        -80.0174392
+    ],
+    "Florida, Lake": [
+        28.876887,
+        -81.695584
+    ],
+    "New Jersey, Gloucester": [
+        39.7267303,
+        -75.1535378
+    ],
+    "Indiana, Vanderburgh": [
+        38.0461185,
+        -87.5806553
+    ],
+    "Massachusetts, Worcester": [
+        42.2625932,
+        -71.8022934
+    ],
+    "Georgia, Glynn": [
+        31.2171726,
+        -81.5012681
+    ],
+    "Alaska, Aleutians East ": [
+        55.0512443,
+        -162.8916892
+    ],
+    "Arkansas, Arkansas": [
+        34.2902454,
+        -91.3598511
+    ],
+    "Florida, Highlands": [
+        27.3513186,
+        -81.3615717
+    ],
+    "Louisiana, Rapides": [
+        31.1719886,
+        -92.5526386
+    ],
+    "Nevada, Douglas": [
+        38.9072611,
+        -119.6201824
+    ],
+    "North Carolina, Mecklenburg": [
+        35.2356385,
+        -80.8139485
+    ],
+    "Oklahoma, Dewey": [
+        35.9795036,
+        -98.9816579
+    ],
+    "Wyoming, Goshen": [
+        42.0657096,
+        -104.3541422
+    ],
+    "Michigan, Muskegon": [
+        43.2341813,
+        -86.2483921
+    ],
+    "Georgia, Chattooga": [
+        34.4620931,
+        -85.3660518
+    ],
+    "Pennsylvania, York": [
+        39.9067499,
+        -76.7008946
+    ],
+    "Tennessee, Union": [
+        36.2979687,
+        -83.8451468
+    ],
+    "California, San Bernardino": [
+        34.8253019,
+        -116.0833144
+    ],
+    "Pennsylvania, Perry": [
+        40.3966461,
+        -77.2890283
+    ],
+    "New York, Schenectady": [
+        42.8142432,
+        -73.9395687
+    ],
+    "Illinois, Peoria": [
+        40.6938609,
+        -89.5891008
+    ],
+    "Nebraska, Thomas": [
+        41.9116541,
+        -100.5558924
+    ],
+    "Puerto Rico, Juncos": [
+        18.20669715,
+        -65.9139803845752
+    ],
+    "Wyoming, Sweetwater": [
+        41.6239475,
+        -108.9702314
+    ],
+    "California, Calaveras": [
+        38.2558181,
+        -120.4981492
+    ],
+    "South Carolina, Pickens": [
+        34.8882592,
+        -82.7193824
+    ],
+    "Tennessee, Maury": [
+        35.6285992,
+        -87.0736684
+    ],
+    "Virginia, Suffolk City": [
+        36.7427673,
+        -76.6241825
+    ],
+    "California, Santa Clara": [
+        37.3541132,
+        -121.9551744
+    ],
+    "Nebraska, Douglas": [
+        41.2954112,
+        -96.1415672
+    ],
+    "Louisiana, St. Bernard": [
+        29.8217562,
+        -89.6008692
+    ],
+    "Pennsylvania, Erie": [
+        42.1294712,
+        -80.0852695
+    ],
+    "Kansas, Sherman": [
+        39.3412127,
+        -101.7492408
+    ],
+    "California, Alameda": [
+        37.6090291,
+        -121.899142
+    ],
+    "Kansas, Wyandotte": [
+        39.1090458,
+        -94.767624
+    ],
+    "Michigan, Berrien": [
+        41.9838614,
+        -86.3985714
+    ],
+    "Puerto Rico, Catano": [
+        18.4409789,
+        -66.1191891
+    ],
+    "Florida, Columbia": [
+        6.55652675,
+        -75.7840382570273
+    ],
+    "Texas, Harrison": [
+        32.5233959,
+        -94.3982158
+    ],
+    "Texas, Kaufman": [
+        32.5893659,
+        -96.3086596
+    ],
+    "Minnesota, Lyon": [
+        44.3880733,
+        -95.8287296
+    ],
+    "Indiana, Carroll": [
+        40.5802239,
+        -86.5693296
+    ],
+    "Virginia, Albemarle": [
+        38.0085107,
+        -78.6086754
+    ],
+    "Wisconsin, Brown": [
+        44.4383498,
+        -88.0167093
+    ],
+    "Wisconsin, Marathon": [
+        44.8914036,
+        -89.7748098
+    ],
+    "Georgia, Pike": [
+        42.03627,
+        43.8203472248146
+    ],
+    "Iowa, Montgomery": [
+        41.0166807,
+        -95.1753285
+    ],
+    "Kentucky, Jefferson": [
+        38.1787175,
+        -85.664528
+    ],
+    "Maryland, Baltimore": [
+        39.2908816,
+        -76.610759
+    ],
+    "Minnesota, Washington": [
+        45.0078591,
+        -92.8743564
+    ],
+    "New York, Erie": [
+        42.7164263,
+        -78.7620327
+    ],
+    "California, Lake": [
+        -3.4523182,
+        31.8893546
+    ],
+    "Kentucky, Pulaski": [
+        37.1124781,
+        -84.593893
+    ],
+    "Kentucky, Edmonson": [
+        37.1999181,
+        -86.2206738
+    ],
+    "Tennessee, Davidson": [
+        36.189724,
+        -86.7857862
+    ],
+    "New Mexico, Santa Fe": [
+        35.6869996,
+        -105.9377997
+    ],
+    "Idaho, Bonneville": [
+        43.3993844,
+        -111.4752257
+    ],
+    "Georgia, Rockdale": [
+        33.6430283,
+        -84.0322064
+    ],
+    "Ohio, Knox": [
+        40.4467896,
+        -82.4056302
+    ],
+    "Kentucky, Warren": [
+        36.9812407,
+        -86.4233533
+    ],
+    "Michigan, Huron": [
+        43.8385749,
+        -83.0221987
+    ],
+    "Montana, Cascade": [
+        47.3271465,
+        -111.3281242
+    ],
+    "California, San Joaquin": [
+        37.9372901,
+        -121.2773719
+    ],
+    "Ohio, Adams": [
+        38.8398935,
+        -83.5051704
+    ],
+    "South Carolina, Cherokee": [
+        35.0372626,
+        -81.6480755
+    ],
+    "North Carolina, Caldwell": [
+        35.9417876,
+        -81.5262567
+    ],
+    "Georgia, Muscogee": [
+        32.4840651,
+        -84.8502167
+    ],
+    "Nebraska, Knox": [
+        42.6206698,
+        -97.8901445
+    ],
+    "Texas, Rockwall": [
+        32.9312336,
+        -96.4597089
+    ],
+    "Tennessee, DeKalb": [
+        35.9804643,
+        -85.83965
+    ],
+    "Kansas, Sedgwick": [
+        37.6448148,
+        -97.4641388
+    ],
+    "Illinois, McHenry": [
+        42.3294391,
+        -88.4605713
+    ],
+    "Illinois, La Salle": [
+        41.3333679,
+        -89.0917497
+    ],
+    "Indiana, Bartholomew": [
+        39.1914156,
+        -85.8204601
+    ],
+    "New Jersey, Hudson": [
+        40.7381635,
+        -74.0550731
+    ],
+    "Texas, Travis": [
+        30.2878569,
+        -97.7561392
+    ],
+    "Washington, Thurston": [
+        46.9319983,
+        -122.8855155
+    ],
+    "Indiana, Fountain": [
+        40.125252,
+        -87.2497418
+    ],
+    "Oregon, Lake": [
+        43.9792797,
+        -120.737257
+    ],
+    "California, Sonoma": [
+        38.5110803,
+        -122.8473388
+    ],
+    "Missouri, Callaway": [
+        38.8491265,
+        -91.9257607
+    ],
+    "Ohio, Warren": [
+        39.4203978,
+        -84.180897
+    ],
+    "West Virginia, Hancock": [
+        40.5071529,
+        -80.5657591
+    ],
+    "Oregon, Jackson": [
+        42.398015,
+        -122.7540948
+    ],
+    "California, Kern": [
+        35.3145701,
+        -118.7538222
+    ],
+    "Wyoming, Carbon": [
+        41.7423474,
+        -106.8625645
+    ],
+    "Virgin Islands, St Croix": [
+        17.7289564,
+        -64.7590159785835
+    ],
+    "Tennessee, Claiborne": [
+        36.4673161,
+        -83.6786377
+    ],
+    "Virginia, Carroll": [
+        36.7365816,
+        -80.7439791
+    ],
+    "Kentucky, Oldham": [
+        38.4975639,
+        -85.4210695
+    ],
+    "Michigan, Tuscola": [
+        43.4776781,
+        -83.3951071
+    ],
+    "Oregon, Umatilla": [
+        45.6416995,
+        -118.7671122
+    ],
+    "Pennsylvania, Tioga": [
+        41.7741691,
+        -77.254256
+    ],
+    "Utah, Washington": [
+        37.2393471,
+        -113.525776
+    ],
+    "New Mexico, Los Alamos": [
+        35.8814009,
+        -106.2989958
+    ],
+    "Colorado, Gunnison": [
+        38.5458246,
+        -106.9253207
+    ],
+    "Minnesota, Cass": [
+        47.0234117,
+        -94.3454604
+    ],
+    "Oregon, Klamath": [
+        42.6052565,
+        -121.739544
+    ],
+    "Tennessee, Loudon": [
+        35.7490023,
+        -84.320293
+    ],
+    "South Dakota, Pennington": [
+        43.9955746,
+        -102.7854668
+    ],
+    "Texas, Bowie": [
+        33.4198886,
+        -94.4479626
+    ],
+    "Idaho, Cassia": [
+        42.2219306,
+        -113.5777087
+    ],
+    "Tennessee, Madison": [
+        35.6055887,
+        -88.852119
+    ],
+    "Alaska, Anchorage ": [
+        61.2163129,
+        -149.8948523
+    ],
+    "North Carolina, Buncombe": [
+        35.6292222,
+        -82.5255603
+    ],
+    "New York, Niagara": [
+        43.2042439,
+        -78.7676017
+    ],
+    "Ohio, Morgan": [
+        39.5943953,
+        -81.877978
+    ],
+    "Georgia, Dawson": [
+        34.4077085,
+        -84.1356771
+    ],
+    "Arkansas, Faulkner": [
+        35.1470851,
+        -92.3219053
+    ],
+    "Alabama, Lawrence": [
+        34.4776367,
+        -87.3017331
+    ],
+    "Georgia, Walker": [
+        34.7418605,
+        -85.3209686
+    ],
+    "Oklahoma, Pottawatomie": [
+        35.1783637,
+        -96.969909
+    ],
+    "Minnesota, Hennepin": [
+        45.0257232,
+        -93.4865052
+    ],
+    "Illinois, Randolph": [
+        38.0472916,
+        -89.8107962
+    ],
+    "Pennsylvania, Clearfield": [
+        40.9908706,
+        -78.4457422
+    ],
+    "Alabama, Sumter": [
+        32.5234698,
+        -88.1837986
+    ],
+    "Washington, Klickitat": [
+        45.8767731,
+        -120.7976033
+    ],
+    "Texas, Robertson": [
+        31.0339058,
+        -96.5079742
+    ],
+    "New Mexico, Valencia": [
+        34.7325886,
+        -106.8503919
+    ],
+    "Pennsylvania, Elk": [
+        41.437362,
+        -78.626009
+    ],
+    "Indiana, LaPorte": [
+        41.5718945,
+        -86.7490124
+    ],
+    "Indiana, Lake": [
+        40.3270127,
+        -86.1746933
+    ],
+    "Louisiana, St. Martin": [
+        30.1811426,
+        -91.6081116
+    ],
+    "Oregon, Multnomah": [
+        45.5093799,
+        -122.4006413
+    ],
+    "Ohio, Geauga": [
+        41.4768249,
+        -81.1850459
+    ],
+    "Wisconsin, Racine": [
+        42.7260523,
+        -87.7825242
+    ],
+    "West Virginia, Wayne": [
+        38.1270685,
+        -82.4289201
+    ],
+    "Colorado, Archuleta": [
+        37.1995993,
+        -107.0842479
+    ],
+    "Montana, Powder River": [
+        45.3655661,
+        -105.5982213
+    ],
+    "West Virginia, Monongalia": [
+        39.6391074,
+        -80.0300399
+    ],
+    "Kansas, Johnson": [
+        38.8837933,
+        -94.8389141
+    ],
+    "Kentucky, Campbell": [
+        38.9339799,
+        -84.3715286
+    ],
+    "North Carolina, Union": [
+        34.9795158,
+        -80.5128209
+    ],
+    "Florida, Osceola": [
+        28.0443842,
+        -81.1437541
+    ],
+    "Illinois, Jackson": [
+        37.7668943,
+        -89.3563845
+    ],
+    "North Carolina, Caswell": [
+        36.4035101,
+        -79.3357315
+    ],
+    "California, San Benito": [
+        36.6248089,
+        -121.1177379
+    ],
+    "Maryland, Anne Arundel": [
+        38.9722583,
+        -76.573454
+    ],
+    "Colorado, Grand": [
+        46.8549181,
+        9.515484
+    ],
+    "North Carolina, Avery": [
+        36.0771285,
+        -81.9230523
+    ],
+    "Maryland, Charles": [
+        38.4991611,
+        -77.027847
+    ],
+    "Nebraska, Cass": [
+        40.9017313,
+        -96.1922102
+    ],
+    "Wisconsin, Barron": [
+        45.423557,
+        -91.8454099
+    ],
+    "Oklahoma, Custer": [
+        35.6286063,
+        -99.0092034
+    ],
+    "New York, Suffolk": [
+        40.8832318,
+        -72.8578027
+    ],
+    "Texas, Lubbock": [
+        33.5778631,
+        -101.8551665
+    ],
+    "Louisiana, Caddo": [
+        32.529173,
+        -93.8931785
+    ],
+    "Washington, Okanogan": [
+        48.361262,
+        -119.5833869
+    ],
+    "South Carolina, Colleton": [
+        32.8620726,
+        -80.677114
+    ],
+    "Wyoming, Big Horn": [
+        44.4952545,
+        -108.0024782
+    ],
+    "Maine, Androscoggin": [
+        44.1402839,
+        -70.196395
+    ],
+    "Massachusetts, Hampshire": [
+        42.3432499,
+        -72.6213339
+    ],
+    "Kentucky, Christian": [
+        36.8778665,
+        -87.5014545
+    ],
+    "Nebraska, Garden": [
+        41.7370229,
+        -99.5873816
+    ],
+    "Illinois, McLean": [
+        40.4631789,
+        -88.8196613
+    ],
+    "New Mexico, Dona Ana": [
+        32.32817,
+        -106.8494235
+    ],
+    "Florida, Hillsborough": [
+        27.9184543,
+        -82.3488057
+    ],
+    "New Mexico, Eddy": [
+        32.4003136,
+        -104.3452596
+    ],
+    "North Carolina, Lee": [
+        35.4691746,
+        -79.1547643
+    ],
+    "Oklahoma, Ellis": [
+        36.2468449,
+        -99.7883601
+    ],
+    "Indiana, Tippecanoe": [
+        40.3916066,
+        -86.8879689
+    ],
+    "Washington, Grays Harbor": [
+        47.1744169,
+        -123.8658829
+    ],
+    "Ohio, Clark": [
+        39.9229676,
+        -83.7905959
+    ],
+    "Illinois, Tazewell": [
+        40.5126429,
+        -89.5442084
+    ],
+    "Georgia, Wilkinson": [
+        32.7924994,
+        -83.1623561
+    ],
+    "Maryland, Calvert": [
+        38.5288529,
+        -76.537764
+    ],
+    "Florida, Putnam": [
+        29.6266155,
+        -81.7230549
+    ],
+    "Georgia, Clayton": [
+        33.5204959,
+        -84.3591713
+    ],
+    "Connecticut, Windham": [
+        41.8208345,
+        -72.0051201
+    ],
+    "Missouri, Cass": [
+        38.6585427,
+        -94.3721539
+    ],
+    "Georgia, Fulton": [
+        34.0580391,
+        -84.2961283
+    ],
+    "Kentucky, Greenup": [
+        38.5108112,
+        -82.9180186
+    ],
+    "West Virginia, Marion": [
+        39.5128606,
+        -80.2258567
+    ],
+    "Mississippi, Hancock": [
+        30.3892826,
+        -89.4782116
+    ],
+    "Indiana, Wayne": [
+        39.8638778,
+        -85.0198586
+    ],
+    "Washington, Cowlitz": [
+        46.1998625,
+        -122.6931507
+    ],
+    "Alaska, Denali ": [
+        63.069115,
+        -151.0062395
+    ],
+    "Pennsylvania, Bucks": [
+        40.3451668,
+        -75.1263909
+    ],
+    "Kentucky, Trigg": [
+        36.7949221,
+        -87.8782433
+    ],
+    "Montana, Missoula": [
+        46.8700801,
+        -113.9952796
+    ],
+    "Louisiana, Winn": [
+        31.947293,
+        -92.6401816
+    ],
+    "Kansas, Leavenworth": [
+        39.3113257,
+        -94.922759
+    ],
+    "Texas, Johnson": [
+        32.3766071,
+        -97.3568623
+    ],
+    "Virginia, Stafford": [
+        38.4167265,
+        -77.4579783
+    ],
+    "West Virginia, Berkeley": [
+        39.4535243,
+        -78.0395522
+    ],
+    "Mississippi, Grenada": [
+        33.7690049,
+        -89.8084192
+    ],
+    "Missouri, Clinton": [
+        39.5975986,
+        -94.4184896
+    ],
+    "Indiana, Hamilton": [
+        40.0749813,
+        -86.0498885
+    ],
+    "Georgia, Douglas": [
+        33.6995565,
+        -84.7622973
+    ],
+    "Colorado, Pitkin": [
+        39.2037774,
+        -106.8695332
+    ],
+    "Iowa, Muscatine": [
+        41.424473,
+        -91.0432051
+    ],
+    "Texas, McLennan": [
+        31.5487691,
+        -97.2189254
+    ],
+    "Florida, Wakulla": [
+        30.1480038,
+        -84.3543512
+    ],
+    "Oklahoma, Caddo": [
+        35.131317,
+        -98.3797949
+    ],
+    "West Virginia, Gilmer": [
+        38.9268106,
+        -80.8350098
+    ],
+    "New York, Oswego": [
+        43.4112973,
+        -76.1279841
+    ],
+    "Pennsylvania, Warren": [
+        41.8119602,
+        -79.2654452
+    ],
+    "Puerto Rico, San Juan": [
+        18.465299,
+        -66.116666
+    ],
+    "South Dakota, Custer": [
+        43.6726477,
+        -103.5101597
+    ],
+    "Connecticut, Hartford": [
+        41.764582,
+        -72.6908547
+    ],
+    "Oklahoma, McCurtain": [
+        34.1450295,
+        -94.7802324
+    ],
+    "Pennsylvania, Centre": [
+        40.9699889,
+        -77.7278831
+    ],
+    "Washington, Grant": [
+        47.119015,
+        -119.4904332
+    ],
+    "Wisconsin, Fond du Lac": [
+        43.7533414,
+        -88.4493796
+    ],
+    "Utah, Daggett": [
+        40.915567,
+        -109.4798174
+    ],
+    "Louisiana, Bossier": [
+        32.6676663,
+        -93.5959786
+    ],
+    "Florida, Holmes": [
+        30.8918676,
+        -85.8138207
+    ],
+    "Louisiana, Iberville": [
+        30.2120844,
+        -91.3133623
+    ],
+    "Colorado, Jefferson": [
+        39.5699803,
+        -105.2561919
+    ],
+    "Puerto Rico, Guayanilla": [
+        18.044225,
+        -66.7957123995916
+    ],
+    "Louisiana, St. Tammany": [
+        30.4243909,
+        -89.9730381
+    ],
+    "Puerto Rico, Ponce": [
+        18.22141715,
+        -66.4132818505648
+    ],
+    "North Carolina, Carteret": [
+        34.8496625,
+        -76.5931208
+    ],
+    "Michigan, Missaukee": [
+        44.336979,
+        -85.1070535
+    ],
+    "Oklahoma, Sequoyah": [
+        35.5035863,
+        -94.7360577
+    ],
+    "Texas, Denton": [
+        33.1838787,
+        -97.1413417
+    ],
+    "Indiana, Howard": [
+        40.4787061,
+        -86.1350343
+    ],
+    "Indiana, Greene": [
+        39.0227107,
+        -86.9958489
+    ],
+    "Arkansas, Ashley": [
+        33.1742582,
+        -91.7295595
+    ],
+    "New York, New York": [
+        40.7127281,
+        -74.0060152
+    ],
+    "Utah, Uintah": [
+        40.1943199,
+        -109.5770955
+    ],
+    "Oregon, Linn": [
+        44.4968904,
+        -122.5485977
+    ],
+    "Vermont, Bennington": [
+        43.0125713,
+        -73.1473048
+    ],
+    "California, Orange": [
+        33.7500378,
+        -117.8704931
+    ],
+    "Michigan, Cass": [
+        41.9090169,
+        -85.9970051
+    ],
+    "Ohio, Allen": [
+        40.8077797,
+        -84.0572225
+    ],
+    "New Mexico, Socorro": [
+        34.0572858,
+        -106.8930799
+    ],
+    "California, Monterey": [
+        36.2231079,
+        -121.3877428
+    ],
+    "Illinois, Will": [
+        41.4194058,
+        -87.9994754
+    ],
+    "Colorado, Boulder": [
+        40.0149856,
+        -105.2705456
+    ],
+    "Indiana, Wabash": [
+        40.8065352,
+        -85.7833563
+    ],
+    "New Mexico, San Juan": [
+        36.4755752,
+        -108.3046555
+    ],
+    "South Dakota, Minnehaha": [
+        43.6680284,
+        -96.7837626
+    ],
+    "Idaho, Ada": [
+        43.4136539,
+        -116.2367421
+    ],
+    "West Virginia, Brooke": [
+        40.2729451,
+        -80.5699497
+    ],
+    "California, Tulare": [
+        36.2516475,
+        -118.852583
+    ],
+    "California, Riverside": [
+        33.9533546,
+        -117.3961623
+    ],
+    "Arkansas, Polk": [
+        34.4995799,
+        -94.2397116
+    ],
+    "New York, Orange": [
+        41.3873306,
+        -74.2507287
+    ],
+    "Oregon, Union": [
+        45.2680014,
+        -118.0257466
+    ],
+    "Illinois, Kane": [
+        41.923434,
+        -88.4248315
+    ],
+    "Washington, Walla Walla": [
+        46.0650381,
+        -118.3302476
+    ],
+    "California, Del Norte": [
+        41.7261767,
+        -123.91328
+    ],
+    "New Mexico, Lincoln": [
+        33.7525727,
+        -105.4158806
+    ],
+    "Mississippi, Jones": [
+        31.6058959,
+        -89.1636245
+    ],
+    "New Hampshire, Cheshire": [
+        42.9525022,
+        -72.2834412
+    ],
+    "Alabama, Madison": [
+        34.7736807,
+        -86.5675095
+    ],
+    "Maine, Oxford": [
+        44.4694529,
+        -70.7782375
+    ],
+    "Virgin Islands, St John": [
+        18.3355244,
+        -64.7549846644977
+    ],
+    "Washington, Asotin": [
+        46.1678079,
+        -117.2045179
+    ],
+    "Indiana, Vigo": [
+        39.4174652,
+        -87.3974269
+    ],
+    "Mississippi, Lee": [
+        34.265749,
+        -88.6913264
+    ],
+    "New Mexico, Lea": [
+        32.7448727,
+        -103.3828242
+    ],
+    "Ohio, Fayette": [
+        39.5839889,
+        -83.4401122
+    ],
+    "North Carolina, Beaufort": [
+        35.469331,
+        -76.8927522
+    ],
+    "Alabama, Russell": [
+        32.2698458,
+        -85.1959487
+    ],
+    "Texas, Tarrant": [
+        32.7513658,
+        -97.335696
+    ],
+    "Tennessee, Bradley": [
+        35.1694469,
+        -84.855938
+    ],
+    "Montana, Powell": [
+        46.9109569,
+        -113.0294193
+    ],
+    "California, Napa": [
+        38.2971367,
+        -122.2855293
+    ],
+    "Michigan, Keweenaw": [
+        47.3876058,
+        -88.0742387
+    ],
+    "Nebraska, Hall": [
+        41.7370229,
+        -99.5873816
+    ],
+    "Iowa, Delaware": [
+        42.4663805,
+        -91.3621282
+    ],
+    "Tennessee, Sevier": [
+        35.8047065,
+        -83.5291901
+    ],
+    "Louisiana, St. James": [
+        30.0096684,
+        -90.7989525
+    ],
+    "Arizona, Cochise": [
+        31.8514532,
+        -109.8181858
+    ],
+    "Kentucky, Madison": [
+        37.7298081,
+        -84.2974735
+    ],
+    "Idaho, Bannock": [
+        42.6936188,
+        -112.2506044
+    ],
+    "New York, Dutchess": [
+        41.7194303,
+        -73.7516205
+    ],
+    "Puerto Rico, Adjuntas": [
+        18.1625596,
+        -66.7231363
+    ],
+    "Illinois, Wabash": [
+        38.4615994,
+        -87.8460903
+    ],
+    "North Carolina, Pitt": [
+        35.611481,
+        -77.3707461
+    ],
+    "Pennsylvania, Lycoming": [
+        41.3472688,
+        -77.0220348
+    ],
+    "Iowa, Lee": [
+        40.6524894,
+        -91.507313
+    ],
+    "North Carolina, Brunswick": [
+        34.0718195,
+        -78.1914215
+    ],
+    "Oklahoma, Pittsburg": [
+        34.927554,
+        -95.7639966
+    ],
+    "Colorado, Larimer": [
+        40.6810174,
+        -105.4726907
+    ],
+    "Pennsylvania, Lawrence": [
+        41.001415,
+        -80.350071
+    ],
+    "Maryland, Baltimore (City)": [
+        39.2668137,
+        -76.6178376939143
+    ],
+    "Florida, Leon": [
+        30.4683062,
+        -84.2549068
+    ],
+    "Nevada, Lyon": [
+        38.9887898,
+        -119.1822042
+    ],
+    "California, Placer": [
+        39.1012064,
+        -120.7650606
+    ],
+    "South Carolina, Richland": [
+        34.0190006,
+        -80.9176832
+    ],
+    "Pennsylvania, Cumberland": [
+        40.1541581,
+        -77.2803933
+    ],
+    "Texas, Brewster": [
+        29.8462742,
+        -103.2400734
+    ],
+    "South Carolina, Chesterfield": [
+        34.6500578,
+        -80.1417843
+    ],
+    "Montana, Sanders": [
+        47.6801812,
+        -115.1769538
+    ],
+    "Oklahoma, Jefferson": [
+        34.1234448,
+        -97.8379641
+    ],
+    "Florida, Duval": [
+        30.3540073,
+        -81.6632109
+    ],
+    "Florida, Pasco": [
+        28.2996183,
+        -82.4522702
+    ],
+    "Vermont, Chittenden": [
+        44.4531756,
+        -73.0673673
+    ],
+    "California, Tehama": [
+        40.1251334,
+        -122.2015529
+    ],
+    "Kansas, Chase": [
+        38.27312,
+        -98.5821872
+    ],
+    "New York, Nassau": [
+        40.7412643,
+        -73.5877699
+    ],
+    "Texas, Bexar": [
+        29.4263987,
+        -98.5104781
+    ],
+    "Washington, Whatcom": [
+        48.8107819,
+        -121.8828175
+    ],
+    "Wyoming, Park": [
+        43.1700264,
+        -107.5685348
+    ],
+    "Ohio, Portage": [
+        41.1496775,
+        -81.2082
+    ],
+    "Virginia, Roanoke City": [
+        37.2529158,
+        -79.9093813
+    ],
+    "Wisconsin, Taylor": [
+        45.2057106,
+        -90.4915874
+    ],
+    "Maine, Hancock": [
+        44.7135397,
+        -68.2994753
+    ],
+    "Colorado, Denver": [
+        39.7392364,
+        -104.9848623
+    ],
+    "Tennessee, Wilson": [
+        36.1466658,
+        -86.3119998
+    ],
+    "Michigan, Wexford": [
+        44.3353211,
+        -85.5741088
+    ],
+    "Maine, York": [
+        43.1659436,
+        -70.6350963839679
+    ],
+    "Utah, Box Elder": [
+        41.3586056,
+        -113.2112072
+    ],
+    "Tennessee, Shelby": [
+        35.1782557,
+        -89.8739775
+    ],
+    "Virginia, Wythe": [
+        36.9118401,
+        -81.0639347
+    ],
+    "Wisconsin, Kewaunee": [
+        44.521282,
+        -87.6301086
+    ],
+    "New York, Jefferson": [
+        44.059311,
+        -75.9995742
+    ],
+    "California, Ventura": [
+        34.4458248,
+        -119.0779359
+    ],
+    "Kentucky, Morgan": [
+        37.9198759,
+        -83.2097119
+    ],
+    "Utah, Cache": [
+        41.7042978,
+        -111.7451159
+    ],
+    "Tennessee, Montgomery": [
+        36.4803824,
+        -87.3786221
+    ],
+    "Mississippi, Adams": [
+        31.4904433,
+        -91.3297733
+    ],
+    "Kansas, Brown": [
+        39.824223,
+        -95.5819952
+    ],
+    "Michigan, Ingham": [
+        42.5860505,
+        -84.3800841
+    ],
+    "Michigan, Genesee": [
+        43.0220032,
+        -83.7274305
+    ],
+    "Washington, Snohomish": [
+        48.0074736,
+        -121.7304882
+    ],
+    "Michigan, Macomb": [
+        42.6741189,
+        -82.902901
+    ],
+    "Florida, Miami-Dade": [
+        25.6364246,
+        -80.4989467
+    ],
+    "Montana, Gallatin": [
+        45.4868491,
+        -111.1967693
+    ],
+    "Kentucky, Boyd": [
+        38.3608934,
+        -82.6945926
+    ],
+    "New Jersey, Morris": [
+        40.8679538,
+        -74.5601181
+    ],
+    "Wisconsin, Monroe": [
+        43.9416755,
+        -90.6397264
+    ],
+    "Colorado, Montezuma": [
+        37.3476546,
+        -108.6260849
+    ],
+    "Missouri, Jefferson": [
+        38.267166,
+        -90.5721889
+    ],
+    "North Carolina, McDowell": [
+        35.6608869,
+        -82.0482171
+    ],
+    "Pennsylvania, Delaware": [
+        39.9194117,
+        -75.4001639
+    ],
+    "Michigan, Mason": [
+        43.9778831,
+        -86.246291
+    ],
+    "Wyoming, Campbell": [
+        44.1908398,
+        -105.5775352
+    ],
+    "New York, Onondaga": [
+        43.015598,
+        -76.2257127
+    ],
+    "South Dakota, Hughes": [
+        44.4047339,
+        -99.946102
+    ],
+    "Illinois, Sangamon": [
+        39.7623668,
+        -89.6454905
+    ],
+    "New Mexico, Bernalillo": [
+        35.0349239,
+        -106.6870693
+    ],
+    "South Carolina, Oconee": [
+        34.7622221,
+        -83.1099645
+    ],
+    "North Carolina, Davidson": [
+        35.7902384,
+        -80.2115053
+    ],
+    "Arizona, Apache": [
+        35.214632,
+        -109.4786676
+    ],
+    "Wyoming, Weston": [
+        43.8397865,
+        -104.5361902
+    ],
+    "Montana, Phillips": [
+        48.3541037,
+        -107.9275256
+    ],
+    "Tennessee, McMinn": [
+        35.444223,
+        -84.624875
+    ],
+    "Florida, Citrus": [
+        28.8512851,
+        -82.5141209
+    ],
+    "Illinois, Macoupin": [
+        39.2420653,
+        -89.925212
+    ],
+    "Michigan, Washtenaw": [
+        42.2582044,
+        -83.8440853
+    ],
+    "Minnesota, Lake": [
+        45.9896587,
+        -94.6113288
+    ],
+    "New York, Tompkins": [
+        42.443114,
+        -76.4725920912081
+    ],
+    "Colorado, Rio Blanco": [
+        39.9847294,
+        -108.1807779
+    ],
+    "Illinois, Hamilton": [
+        38.0619569,
+        -88.5301136
+    ],
+    "Iowa, Harrison": [
+        41.6659155,
+        -95.7976315
+    ],
+    "Kentucky, Kenton": [
+        38.9252546,
+        -84.5331967
+    ],
+    "Florida, Orange": [
+        28.5421097,
+        -81.3790388
+    ],
+    "Wisconsin, Oneida": [
+        45.6879163,
+        -89.4779558
+    ],
+    "Pennsylvania, Beaver": [
+        40.6916624,
+        -80.3709999
+    ],
+    "North Carolina, Lenoir": [
+        35.9140196,
+        -81.5389849
+    ],
+    "Georgia, Houston": [
+        32.4659752,
+        -83.631394
+    ],
+    "Indiana, Shelby": [
+        39.493485,
+        -85.8190596
+    ],
+    "Michigan, Wayne": [
+        42.2682408,
+        -83.2844172
+    ],
+    "Oregon, Deschutes": [
+        43.8194838,
+        -121.1669662
+    ],
+    "Pennsylvania, Westmoreland": [
+        40.2930159,
+        -79.4873204
+    ],
+    "Utah, Tooele": [
+        40.5307776,
+        -112.29828
+    ],
+    "Kansas, Sumner": [
+        37.2435967,
+        -97.4792142
+    ],
+    "Ohio, Clermont": [
+        39.0678155,
+        -84.1566341
+    ],
+    "Ohio, Trumbull": [
+        41.3068487,
+        -80.7661017
+    ],
+    "Colorado, Arapahoe": [
+        39.6416781,
+        -104.3628567
+    ],
+    "New Mexico, McKinley": [
+        35.6438394,
+        -108.1515609
+    ],
+    "Arkansas, Union": [
+        33.1637366,
+        -92.6171029
+    ],
+    "Ohio, Delaware": [
+        40.2317686,
+        -82.9651045
+    ],
+    "Missouri, Jasper": [
+        37.176515,
+        -94.3103412
+    ],
+    "Tennessee, Jefferson": [
+        36.040946,
+        -83.4596349
+    ],
+    "Mississippi, Forrest": [
+        31.1540772,
+        -89.2398601
+    ],
+    "Oklahoma, Canadian": [
+        35.5438102,
+        -98.0031532
+    ],
+    "Texas, Jefferson": [
+        29.834772,
+        -94.1704496
+    ],
+    "South Carolina, Greenville": [
+        34.851354,
+        -82.3984882
+    ],
+    "Kentucky, Simpson": [
+        36.73518,
+        -86.5780102
+    ],
+    "Illinois, DuPage": [
+        41.8603735,
+        -88.0906873
+    ],
+    "Wyoming, Sheridan": [
+        44.797194,
+        -106.956179
+    ],
+    "Wyoming, Crook": [
+        44.5746536,
+        -104.5816096
+    ],
+    "North Carolina, Robeson": [
+        34.6485079,
+        -79.0954942
+    ],
+    "Wyoming, Lincoln": [
+        42.1765551,
+        -110.7208048
+    ],
+    "Indiana, Delaware": [
+        40.2193275,
+        -85.4040612
+    ],
+    "Arizona, Maricopa": [
+        33.34883,
+        -112.49123
+    ],
+    "Texas, Ellis": [
+        32.3347829,
+        -96.7920233
+    ],
+    "Oklahoma, Lincoln": [
+        35.6961464,
+        -96.8898429
+    ],
+    "Massachusetts, Dukes": [
+        41.3926378,
+        -70.642011
+    ],
+    "Massachusetts, Barnstable": [
+        41.6718684,
+        -70.3499234
+    ],
+    "Arizona, Yuma": [
+        32.665135,
+        -114.476031572498
+    ],
+    "Minnesota, Carlton": [
+        46.5799933,
+        -92.7206334
+    ],
+    "Texas, Navarro": [
+        32.0279525,
+        -96.4985456
+    ],
+    "Washington, Spokane": [
+        47.6579425,
+        -117.4212265
+    ],
+    "New York, Madison": [
+        42.875882,
+        -75.6802581
+    ],
+    "Pennsylvania, Chester": [
+        39.9829308,
+        -75.7652424
+    ],
+    "Montana, Silver Bow": [
+        45.9009106,
+        -112.6788845
+    ],
+    "West Virginia, Wood": [
+        39.2054823,
+        -81.5185967
+    ],
+    "Texas, Harris": [
+        29.8119769,
+        -95.3741247
+    ],
+    "Washington, King": [
+        47.4873376,
+        -121.8622122
+    ],
+    "Virginia, Hanover": [
+        37.744783,
+        -77.4464165
+    ],
+    "Florida, Seminole": [
+        28.7225829,
+        -81.2353683
+    ],
+    "Washington, Pierce": [
+        47.0022547,
+        -122.2117983
+    ],
+    "Indiana, Perry": [
+        38.0893386,
+        -86.632911
+    ],
+    "Colorado, Adams": [
+        39.8714085,
+        -104.2701374
+    ],
+    "North Carolina, Rockingham": [
+        36.3926798,
+        -79.744144
+    ],
+    "Oklahoma, Mayes": [
+        36.3047676,
+        -95.2355722
+    ],
+    "Texas, Hunt": [
+        33.1161567,
+        -96.0808922
+    ],
+    "California, Trinity": [
+        40.6053256,
+        -123.171268
+    ],
+    "Indiana, Marion": [
+        39.7810289,
+        -86.1365457
+    ],
+    "Georgia, Henry": [
+        33.4519942,
+        -84.1367771
+    ],
+    "Arizona, Gila": [
+        33.7517565,
+        -110.8052705
+    ],
+    "Idaho, Custer": [
+        44.2339362,
+        -114.2286662
+    ],
+    "Indiana, Knox": [
+        38.687009,
+        -87.3811461
+    ],
+    "Pennsylvania, Berks": [
+        40.4113762,
+        -75.9433305
+    ],
+    "Kansas, Riley": [
+        39.3026347,
+        -96.7709339
+    ],
+    "Indiana, Morgan": [
+        39.4665575,
+        -86.4556794
+    ],
+    "Colorado, Fremont": [
+        38.4692006,
+        -105.4328622
+    ],
+    "Montana, Lincoln": [
+        48.5891095,
+        -115.4911526
+    ],
+    "New Hampshire, Belknap": [
+        43.5218848,
+        -71.4530581
+    ],
+    "New York, Herkimer": [
+        43.4911326,
+        -74.9481252
+    ],
+    "Tennessee, Williamson": [
+        35.8772991,
+        -86.8978708
+    ],
+    "Washington, Kittitas": [
+        47.1057471,
+        -120.5849305
+    ],
+    "Kentucky, Bullitt": [
+        37.9749498,
+        -85.6742394
+    ],
+    "Texas, Cameron": [
+        3.8870067,
+        11.5509966
+    ],
+    "Texas, Galveston": [
+        29.299328,
+        -94.7945882
+    ],
+    "Texas, Parker": [
+        32.7599475,
+        -97.7935767
+    ],
+    "Virginia, Chesterfield": [
+        37.3859982,
+        -77.578509
+    ],
+    "Colorado, Elbert": [
+        39.3138822,
+        -104.0868973
+    ],
+    "Ohio, Noble": [
+        39.7517148,
+        -81.4957347
+    ],
+    "California, Contra Costa": [
+        37.9034806,
+        -121.9175345
+    ],
+    "Florida, Marion": [
+        29.2182454,
+        -82.0626948
+    ],
+    "Virginia, Lynchburg City": [
+        37.40088,
+        -79.1844923945909
+    ],
+    "Oregon, Yamhill": [
+        45.2298399,
+        -123.2180414
+    ],
+    "Ohio, Stark": [
+        40.7214654,
+        -81.4399734
+    ],
+    "Kansas, Shawnee": [
+        39.0273676,
+        -95.7627535
+    ],
+    "Missouri, Perry": [
+        37.7107349,
+        -89.8430248
+    ],
+    "Ohio, Licking": [
+        40.1318041,
+        -82.4627856
+    ],
+    "Pennsylvania, Mercer": [
+        41.3334542,
+        -80.3014412
+    ],
+    "Illinois, Monroe": [
+        38.2722313,
+        -90.1792484
+    ],
+    "Connecticut, Litchfield": [
+        41.767249,
+        -73.2543049
+    ],
+    "Virginia, Fauquier": [
+        38.7513714,
+        -77.8141221
+    ],
+    "North Carolina, Jackson": [
+        35.2962391,
+        -83.1388055
+    ],
+    "Indiana, Hancock": [
+        39.8127873,
+        -85.7874738
+    ],
+    "West Virginia, Harrison": [
+        39.2820223,
+        -80.3789878
+    ],
+    "Pennsylvania, Armstrong": [
+        40.7876239,
+        -79.4689832
+    ],
+    "Oregon, Harney": [
+        43.055195,
+        -119.0240263
+    ],
+    "Alabama, Colbert": [
+        34.6473396,
+        -87.7921769
+    ],
+    "Colorado, El Paso": [
+        38.8287435,
+        -104.5253456
+    ],
+    "Pennsylvania, Allegheny": [
+        40.4597204,
+        -79.9760405
+    ],
+    "Florida, Indian River": [
+        27.7041555,
+        -80.5894422
+    ],
+    "Oklahoma, Grady": [
+        35.0507761,
+        -97.8849251
+    ],
+    "Wyoming, Albany": [
+        41.6684047,
+        -105.6812633
+    ],
+    "Texas, Gillespie": [
+        30.2954086,
+        -98.9086643
+    ],
+    "Minnesota, Ramsey": [
+        45.0165728,
+        -93.0949501
+    ],
+    "Missouri, Monroe": [
+        39.494421,
+        -91.9896892
+    ],
+    "Massachusetts, Essex": [
+        42.6320389,
+        -70.7828255
+    ],
+    "Ohio, Medina": [
+        41.1000764,
+        -81.9382517
+    ],
+    "Georgia, Charlton": [
+        30.8775388,
+        -82.1185847
+    ],
+    "Missouri, Boone": [
+        39.0153926,
+        -92.3307534
+    ],
+    "Florida, Polk": [
+        27.9448537,
+        -81.7268789
+    ],
+    "Iowa, Black Hawk": [
+        42.4607526,
+        -92.3030235
+    ],
+    "Florida, Collier": [
+        26.087964,
+        -81.3794941
+    ],
+    "North Dakota, Williams": [
+        48.3629861,
+        -103.4958386
+    ],
+    "Texas, Smith": [
+        32.3402898,
+        -95.2563971
+    ],
+    "Michigan, Ottawa": [
+        42.9547143,
+        -85.9827867
+    ],
+    "Puerto Rico, Guaynabo": [
+        18.35915955,
+        -66.115680241776
+    ],
+    "Georgia, Washington": [
+        32.9619979,
+        -82.7748026
+    ],
+    "New Mexico, Catron": [
+        33.9026943,
+        -108.3800825
+    ],
+    "Virginia, Prince Edward": [
+        37.2293293,
+        -78.4628573
+    ],
+    "Washington, Columbia": [
+        9.9621155,
+        -74.1870612
+    ],
+    "South Carolina, Florence": [
+        34.1984435,
+        -79.7671658
+    ],
+    "Alabama, DeKalb": [
+        34.4524349,
+        -85.7662118
+    ],
+    "Florida, Escambia": [
+        30.6625885,
+        -87.3451089
+    ],
+    "Idaho, Idaho": [
+        45.7680684,
+        -115.5160723
+    ],
+    "Illinois, Rock Island": [
+        41.4411786,
+        -90.5766144
+    ],
+    "Minnesota, Goodhue": [
+        44.396973,
+        -92.7175627
+    ],
+    "Alabama, Mobile": [
+        30.6943566,
+        -88.0430541
+    ],
+    "Utah, Utah": [
+        40.0881195,
+        -111.6238946
+    ],
+    "Nevada, Nye": [
+        38.3544843,
+        -116.4069616
+    ],
+    "California, Solano": [
+        38.2218938,
+        -121.9163555
+    ],
+    "Wisconsin, Dodge": [
+        43.413614,
+        -88.7177834
+    ],
+    "Ohio, Lake": [
+        43.8873121,
+        -85.7824304
+    ],
+    "Ohio, Hancock": [
+        40.9939911,
+        -83.6587588
+    ],
+    "Minnesota, Dakota": [
+        44.666655,
+        -93.044911
+    ],
+    "New York, Albany": [
+        42.6511674,
+        -73.754968
+    ],
+    "Florida, Broward": [
+        26.1598074,
+        -80.4623642
+    ],
+    "New York, Saratoga": [
+        43.0833231,
+        -73.8712155
+    ],
+    "West Virginia, Kanawha": [
+        38.3428208,
+        -81.5089835
+    ],
+    "Louisiana, Lafayette": [
+        30.2240897,
+        -92.0198427
+    ],
+    "Idaho, Franklin": [
+        42.1093652,
+        -111.8203389
+    ],
+    "Indiana, Dubois": [
+        38.3644324,
+        -86.8870278
+    ],
+    "South Carolina, Georgetown": [
+        33.4392245,
+        -79.3343041
+    ],
+    "Oklahoma, Washington": [
+        36.6930592,
+        -95.9078261
+    ],
+    "Puerto Rico, Caguas": [
+        18.2345399,
+        -66.0351316
+    ],
+    "Virginia, Winchester City": [
+        39.16812725,
+        -78.1731932687587
+    ],
+    "New York, Hamilton": [
+        43.6307863,
+        -74.4659275
+    ],
+    "Minnesota, Crow Wing": [
+        46.4665237,
+        -94.1017044
+    ],
+    "Iowa, Johnson": [
+        41.6861834,
+        -91.6061124
+    ],
+    "Florida, St. Lucie": [
+        27.3900897,
+        -80.457904
+    ],
+    "Ohio, Jefferson": [
+        40.3792938,
+        -80.7847619
+    ],
+    "Oregon, Lane": [
+        43.9792797,
+        -120.737257
+    ],
+    "Oregon, Marion": [
+        44.8964425,
+        -122.7203248
+    ],
+    "Wisconsin, Waukesha": [
+        43.0116784,
+        -88.2314813
+    ],
+    "Oregon, Josephine": [
+        42.3554368,
+        -123.5602707
+    ],
+    "Virginia, Madison": [
+        38.4114615,
+        -78.2846634
+    ],
+    "Virginia, Fredericksburg City": [
+        38.2967927,
+        -77.483409
+    ],
+    "Missouri, St. Louis City": [
+        38.6271964,
+        -90.2558827
+    ],
+    "Utah, Davis": [
+        41.0263758,
+        -112.1197426
+    ],
+    "South Dakota, Codington": [
+        44.9695646,
+        -97.1976513
+    ],
+    "Indiana, Allen": [
+        41.0975573,
+        -85.0562084
+    ],
+    "Virginia, Fairfax": [
+        38.8462236,
+        -77.3063733
+    ],
+    "Minnesota, Saint Louis": [
+        47.6201005,
+        -92.4363343
+    ],
+    "Tennessee, Putnam": [
+        36.1379872,
+        -85.4553784
+    ],
+    "Louisiana, Jefferson": [
+        29.8502657,
+        -90.1293894
+    ],
+    "Oregon, Baker": [
+        44.7259637,
+        -117.6204818
+    ],
+    "Texas, Kleberg": [
+        27.3983129,
+        -97.7485096
+    ],
+    "North Dakota, Cass": [
+        46.9241972,
+        -97.220631
+    ],
+    "Kentucky, Marshall": [
+        36.8624306,
+        -88.3264641
+    ],
+    "California, Los Angeles": [
+        34.0536909,
+        -118.2427666
+    ],
+    "Virginia, Roanoke": [
+        37.2738215,
+        -79.9602021478478
+    ],
+    "Wisconsin, Eau Claire": [
+        44.811349,
+        -91.4984941
+    ],
+    "Pennsylvania, Philadelphia": [
+        39.9527237,
+        -75.1635262
+    ],
+    "New York, Kings": [
+        43.1509069,
+        -73.8542895
+    ],
+    "Tennessee, Sumner": [
+        36.4496718,
+        -86.4685413
+    ],
+    "Virginia, Rockingham": [
+        38.5080288,
+        -78.8949442
+    ],
+    "Wyoming, Sublette": [
+        42.736927,
+        -109.9905911
+    ],
+    "Colorado, San Juan": [
+        37.7633081,
+        -107.6495508
+    ],
+    "California, Tuolumne": [
+        38.056944,
+        -119.9919351
+    ],
+    "Pennsylvania, Somerset": [
+        39.9980022,
+        -79.0415528
+    ],
+    "Montana, Glacier": [
+        48.6966449,
+        -112.9467116
+    ],
+    "Indiana, Clark": [
+        38.4941217,
+        -85.7169081
+    ],
+    "Georgia, Coweta": [
+        33.3500656,
+        -84.7545734
+    ],
+    "Pennsylvania, Greene": [
+        39.8513322,
+        -80.2466384
+    ],
+    "Hawaii, Kauai": [
+        22.05046655,
+        -159.55876775017
+    ],
+    "Nebraska, Sarpy": [
+        41.1193462,
+        -96.093081
+    ],
+    "North Carolina, New Hanover": [
+        34.2751052,
+        -77.8818627
+    ],
+    "Washington, Yakima": [
+        46.601557,
+        -120.5108421
+    ],
+    "Kansas, Linn": [
+        38.1965927,
+        -94.8578272
+    ],
+    "Montana, Flathead": [
+        48.3840879,
+        -113.972144
+    ],
+    "New York, Monroe": [
+        43.150094,
+        -77.6810141
+    ],
+    "Delaware, Kent": [
+        39.1156908,
+        -75.4841394
+    ],
+    "Mississippi, DeSoto": [
+        34.8703284,
+        -89.9778704
+    ],
+    "Michigan, Manistee": [
+        44.3308044,
+        -86.0262043
+    ],
+    "Arkansas, Washington": [
+        35.9672625,
+        -94.2280656
+    ],
+    "West Virginia, Marshall": [
+        39.854861,
+        -80.6616946
+    ],
+    "Alabama, Morgan": [
+        34.4296848,
+        -86.8529584
+    ],
+    "Kentucky, Livingston": [
+        37.1898627,
+        -88.3343825
+    ],
+    "Michigan, Benzie": [
+        44.6408868,
+        -85.9928452
+    ],
+    "West Virginia, Ohio": [
+        40.0984771,
+        -80.6109467
+    ],
+    "Iowa, Bremer": [
+        42.7669649,
+        -92.3099856
+    ],
+    "Kentucky, Henderson": [
+        37.76721,
+        -87.5573742
+    ],
+    "Kentucky, Boone": [
+        38.9589235,
+        -84.7160121
+    ],
+    "North Carolina, Alexander": [
+        35.924738,
+        -81.1716315
+    ],
+    "North Dakota, Oliver": [
+        47.1077709,
+        -101.3524486
+    ],
+    "Oklahoma, Cleveland": [
+        35.2301869,
+        -97.3109151
+    ],
+    "Oklahoma, Cotton": [
+        34.2907874,
+        -98.3750699
+    ],
+    "Colorado, Delta": [
+        38.8368777,
+        -107.8568294
+    ],
+    "California, Mono": [
+        37.9533927,
+        -118.9398758
+    ],
+    "Georgia, DeKalb": [
+        33.7575613,
+        -84.2186508
+    ],
+    "Maine, Aroostook": [
+        46.6847962,
+        -68.4701132
+    ],
+    "Maryland, Kent": [
+        39.2587546,
+        -76.1038454
+    ],
+    "Pennsylvania, Lancaster": [
+        40.03813,
+        -76.3056686
+    ],
+    "New York, Wayne": [
+        43.1500557,
+        -77.0377603
+    ],
+    "North Dakota, McKenzie": [
+        47.7702536,
+        -103.4734684
+    ],
+    "South Carolina, Edgefield": [
+        33.7635851,
+        -81.9759066
+    ],
+    "Florida, Bay": [
+        27.7567667,
+        -81.4639835
+    ],
+    "Kentucky, Daviess": [
+        37.6877924,
+        -87.0818357
+    ],
+    "Oklahoma, Ottawa": [
+        36.8223646,
+        -94.8186091
+    ],
+    "Indiana, St. Joseph": [
+        41.5941578,
+        -86.2787334
+    ],
+    "Hawaii, Honolulu": [
+        21.304547,
+        -157.8556764
+    ],
+    "Rhode Island, Washington": [
+        41.463239,
+        -71.7039673
+    ],
+    "Arizona, Santa Cruz": [
+        31.5094579,
+        -110.8476281
+    ],
+    "Florida, Sarasota": [
+        27.3364347,
+        -82.5306527
+    ],
+    "Ohio, Madison": [
+        39.8868227,
+        -83.3937233
+    ],
+    "North Carolina, Franklin": [
+        36.1028596,
+        -78.2787229
+    ],
+    "Puerto Rico, Bayamon": [
+        18.34495825,
+        -66.1683740026913
+    ],
+    "Puerto Rico, Guayama": [
+        17.9852036,
+        -66.113567
+    ],
+    "Colorado, Jackson": [
+        40.6531945,
+        -106.3447246
+    ],
+    "Texas, Hays": [
+        30.0447901,
+        -98.0393127
+    ],
+    "Georgia, Clarke": [
+        33.9458693,
+        -83.3557816
+    ],
+    "Oregon, Clackamas": [
+        45.1608821,
+        -122.2305038
+    ],
+    "Connecticut, New Haven": [
+        41.3082138,
+        -72.9250518
+    ],
+    "Wisconsin, Rock": [
+        42.6654418,
+        -89.081772
+    ],
+    "Kansas, Ford": [
+        37.7072469,
+        -99.8943146
+    ],
+    "Alabama, Tuscaloosa": [
+        33.2095614,
+        -87.5675258
+    ],
+    "Nebraska, Lancaster": [
+        40.7768326,
+        -96.7111039
+    ],
+    "Missouri, Buchanan": [
+        39.6733203,
+        -94.794829
+    ],
+    "Nevada, White Pine": [
+        39.5298185,
+        -114.8899563
+    ],
+    "Colorado, San Miguel": [
+        37.96345975,
+        -108.411848160853
+    ],
+    "Missouri, Franklin": [
+        38.4021095,
+        -91.0841241
+    ],
+    "Maine, Piscataquis": [
+        45.8358193,
+        -69.2923096
+    ],
+    "Wisconsin, St. Croix": [
+        45.0312388,
+        -92.4679305
+    ],
+    "Colorado, Routt": [
+        40.4514373,
+        -106.9724072
+    ],
+    "Connecticut, New London": [
+        41.3556187,
+        -72.0997804
+    ],
+    "North Carolina, Chatham": [
+        35.7151316,
+        -79.2533035
+    ],
+    "Wisconsin, La Crosse": [
+        43.8014053,
+        -91.2395429
+    ],
+    "Idaho, Power": [
+        42.6769078,
+        -112.8869775
+    ],
+    "Wisconsin, Columbia": [
+        43.4641929,
+        -89.3478429
+    ],
+    "Georgia, Dougherty": [
+        31.5426984,
+        -84.1960829
+    ],
+    "Minnesota, Becker": [
+        46.9298236,
+        -95.6761851
+    ],
+    "Delaware, Sussex": [
+        38.6908097,
+        -75.3691421
+    ],
+    "Arizona, Pinal": [
+        32.8085851,
+        -111.4426212
+    ],
+    "Iowa, Warren": [
+        41.3138645,
+        -93.5685324
+    ],
+    "Indiana, Boone": [
+        40.0459913,
+        -86.4650842
+    ],
+    "Texas, Brazoria": [
+        29.18161,
+        -95.4993375
+    ],
+    "California, Sutter": [
+        38.9509675,
+        -121.697088
+    ],
+    "Maryland, Carroll": [
+        39.5685399,
+        -77.026707
+    ],
+    "California, Amador": [
+        38.449089,
+        -120.5911018
+    ],
+    "West Virginia, Raleigh": [
+        37.7493481,
+        -81.2250929
+    ],
+    "Kansas, Trego": [
+        38.9289979,
+        -99.9130572
+    ],
+    "Ohio, Montgomery": [
+        39.6837328,
+        -84.2854817
+    ],
+    "Wisconsin, Ashland": [
+        46.2062319,
+        -90.6802594
+    ],
+    "Georgia, Columbia": [
+        33.5313102,
+        -82.2563979
+    ],
+    "New Hampshire, Coos": [
+        44.698627,
+        -71.3768039
+    ],
+    "South Dakota, Meade": [
+        44.5263375,
+        -102.6463435
+    ],
+    "Texas, Nueces": [
+        27.7153774,
+        -97.6199942
+    ],
+    "California, Siskiyou": [
+        41.5007223,
+        -122.544354147521
+    ],
+    "Minnesota, Olmsted": [
+        43.999812,
+        -92.3765614
+    ],
+    "Georgia, Hall": [
+        32.3293809,
+        -83.1137366
+    ],
+    "Georgia, Gwinnett": [
+        33.9566869,
+        -84.0227467
+    ],
+    "Iowa, Cerro Gordo": [
+        43.0742443,
+        -93.2548746
+    ],
+    "Wisconsin, Grant": [
+        42.8855277,
+        -90.6991696
+    ],
+    "Wyoming, Fremont": [
+        43.0293336,
+        -108.5772551
+    ],
+    "Kentucky, Carter": [
+        38.3199171,
+        -83.0039034
+    ],
+    "Ohio, Lorain": [
+        41.4673238,
+        -82.1781904
+    ],
+    "Texas, Bell": [
+        31.0081659,
+        -97.4314413
+    ],
+    "Washington, Kitsap": [
+        47.594502,
+        -122.6474421
+    ],
+    "Pennsylvania, Franklin": [
+        39.9259345,
+        -77.7485516
+    ],
+    "North Carolina, Wayne": [
+        35.3546293,
+        -78.0149444
+    ],
+    "Kentucky, Jessamine": [
+        37.8652866,
+        -84.576902
+    ],
+    "Wisconsin, Chippewa": [
+        45.0740585,
+        -91.2947258
+    ],
+    "Idaho, Latah": [
+        46.8171611,
+        -116.693441
+    ],
+    "Georgia, Floyd": [
+        34.2421984,
+        -85.2229248
+    ],
+    "New York, Franklin": [
+        44.5599139,
+        -74.3273735
+    ],
+    "Pennsylvania, Lebanon": [
+        40.375713,
+        -76.4626118
+    ],
+    "North Carolina, Alamance": [
+        36.0351361,
+        -79.4858549
+    ],
+    "Ohio, Butler": [
+        39.4233043,
+        -84.5936897
+    ],
+    "Indiana, Brown": [
+        39.1682855,
+        -86.2297004
+    ],
+    "Connecticut, Tolland": [
+        41.818446,
+        -72.3562252
+    ],
+    "North Carolina, Wake": [
+        35.7979355,
+        -78.6118311
+    ],
+    "Louisiana, Lafourche": [
+        29.5820155,
+        -90.3964889
+    ],
+    "Tennessee, Humphreys": [
+        36.018558,
+        -87.7721645
+    ],
+    "Louisiana, East Baton Rouge": [
+        30.5254797,
+        -91.0899217
+    ],
+    "Virginia, Newport News City": [
+        37.0914429,
+        -76.5213892
+    ],
+    "Virginia, Henrico": [
+        37.5455191,
+        -77.4234124
+    ],
+    "Oklahoma, Kay": [
+        36.8384462,
+        -97.1571626
+    ],
+    "Alaska, Yukon-Koyukuk ": [
+        65.2266005,
+        -153.547228715987
+    ],
+    "Idaho, Twin Falls": [
+        42.5704219,
+        -114.4603171
+    ],
+    "Louisiana, Orleans": [
+        30.0801436,
+        -89.9319134
+    ],
+    "Mississippi, Hinds": [
+        32.2506754,
+        -90.4793259
+    ],
+    "Pennsylvania, Cambria": [
+        40.4843583,
+        -78.718852
+    ],
+    "Colorado, Moffat": [
+        40.6083135,
+        -108.252345
+    ],
+    "Indiana, Monroe": [
+        39.1294237,
+        -86.5187646
+    ],
+    "Virginia, Caroline": [
+        38.0320305,
+        -77.362363
+    ],
+    "Washington, Jefferson": [
+        47.7325289,
+        -123.6328565
+    ],
+    "Wyoming, Platte": [
+        42.0923141,
+        -104.9870991
+    ],
+    "North Dakota, Stutsman": [
+        46.9596318,
+        -98.9742609
+    ],
+    "Nevada, Churchill": [
+        39.6136309,
+        -118.4191948
+    ],
+    "Iowa, Linn": [
+        42.0631825,
+        -91.6037932
+    ],
+    "Kentucky, McCracken": [
+        37.0335839,
+        -88.7107201
+    ],
+    "New Mexico, Luna": [
+        32.1345966,
+        -107.7682754
+    ],
+    "California, Merced": [
+        37.3029568,
+        -120.4843269
+    ],
+    "California, San Francisco": [
+        37.7792808,
+        -122.4192363
+    ],
+    "Oklahoma, Johnston": [
+        34.31888,
+        -96.6752298
+    ],
+    "Kentucky, Ohio": [
+        37.4757698,
+        -86.8560639
+    ],
+    "Louisiana, St. Charles": [
+        29.8883177,
+        -90.3794968
+    ],
+    "Ohio, Preble": [
+        39.8125011,
+        -84.6411162
+    ],
+    "Vermont, Rutland": [
+        43.5299763,
+        -73.0347131
+    ],
+    "Arizona, Navajo": [
+        35.1819775,
+        -110.3549451
+    ],
+    "Arkansas, Clark": [
+        34.0541966,
+        -93.198963
+    ],
+    "Pennsylvania, Bradford": [
+        41.7746685,
+        -76.5264613
+    ],
+    "Tennessee, Dyer": [
+        36.0526084,
+        -89.4171552
+    ],
+    "Texas, Titus": [
+        33.2040399,
+        -94.9651725
+    ],
+    "North Carolina, Durham": [
+        35.996653,
+        -78.9018053
+    ],
+    "New Hampshire, Merrimack": [
+        43.3260376,
+        -71.6854725
+    ],
+    "Pennsylvania, Adams": [
+        39.8708972,
+        -77.2395963
+    ],
+    "Virginia, Hopewell City": [
+        37.280149,
+        -77.2948783
+    ],
+    "Iowa, Palo Alto": [
+        43.0762829,
+        -94.6625047
+    ],
+    "Michigan, Schoolcraft": [
+        46.1902943,
+        -86.1833841
+    ],
+    "North Carolina, Granville": [
+        36.3210127,
+        -78.6593963
+    ],
+    "Oklahoma, Cherokee": [
+        35.9158661,
+        -94.9950063
+    ],
+    "Virginia, Charles": [
+        37.3705777,
+        -77.0605098
+    ],
+    "Virginia, Arlington": [
+        38.8903961,
+        -77.0841585
+    ],
+    "Georgia, Lowndes": [
+        30.8195619,
+        -83.2628255
+    ],
+    "Florida, Pinellas": [
+        27.8778904,
+        -82.7329309
+    ],
+    "Alabama, Walker": [
+        33.7804491,
+        -87.2767248
+    ],
+    "Montana, Richland": [
+        47.8314138,
+        -104.559421
+    ],
+    "California, Inyo": [
+        36.5595325,
+        -117.4074712
+    ],
+    "Maryland, Montgomery": [
+        39.1406267,
+        -77.2075612
+    ],
+    "Alabama, Shelby": [
+        33.2503347,
+        -86.6639746
+    ],
+    "Nevada, Carson City": [
+        39.1648969,
+        -119.7665825
+    ],
+    "Texas, Ector": [
+        31.8941755,
+        -102.5794339
+    ],
+    "Washington, Skagit": [
+        48.4596092,
+        -121.7332784
+    ],
+    "Wisconsin, Sauk": [
+        43.4401728,
+        -89.9653841
+    ],
+    "Maine, Knox": [
+        44.1773049,
+        -69.2127109
+    ],
+    "New York, Bronx": [
+        40.8466508,
+        -73.8785937
+    ],
+    "Ohio, Hamilton": [
+        39.2085354,
+        -84.5501874
+    ],
+    "Utah, Salt Lake": [
+        40.6632297,
+        -111.9103124
+    ],
+    "Florida, Santa Rosa": [
+        30.6964502,
+        -87.0097524
+    ],
+    "Maine, Kennebec": [
+        44.4184616,
+        -69.8250659
+    ],
+    "Michigan, Lenawee": [
+        41.8735258,
+        -84.0624323
+    ],
+    "Kansas, Neosho": [
+        37.5566345,
+        -95.33166
+    ],
+    "Iowa, Tama": [
+        42.0568108,
+        -92.5433918
+    ],
+    "Massachusetts, Middlesex": [
+        42.485452,
+        -71.3968261
+    ],
+    "Iowa, Pottawattamie": [
+        41.3115686,
+        -95.5331269
+    ],
+    "Arkansas, Jackson": [
+        35.5770886,
+        -91.196742
+    ],
+    "North Carolina, Catawba": [
+        35.6740563,
+        -81.2107215
+    ],
+    "Mississippi, Jackson": [
+        32.2990384,
+        -90.1847691
+    ],
+    "Indiana, Porter": [
+        41.4457032,
+        -87.0724971
+    ],
+    "Idaho, Caribou": [
+        42.780196,
+        -111.6052607
+    ],
+    "New Jersey, Union": [
+        40.6652251,
+        -74.3045277
+    ],
+    "Oklahoma, McClain": [
+        34.9756991,
+        -97.481167
+    ],
+    "Washington, Chelan": [
+        47.8012197,
+        -120.6276904
+    ],
+    "Maryland, Howard": [
+        39.2305289,
+        -76.9166241
+    ],
+    "Mississippi, Lauderdale": [
+        32.3905206,
+        -88.689636
+    ],
+    "California, Marin": [
+        38.0409144,
+        -122.6199638
+    ],
+    "Tennessee, Roane": [
+        35.84857,
+        -84.5225522
+    ],
+    "Virginia, Virginia Beach City": [
+        36.5943204,
+        -75.8876014
+    ],
+    "New York, Steuben": [
+        42.2359045,
+        -77.3750862
+    ],
+    "Massachusetts, Franklin": [
+        42.5896205,
+        -72.6110645
+    ],
+    "Oklahoma, Osage": [
+        36.6189659,
+        -96.401338
+    ],
+    "Minnesota, Anoka": [
+        45.2710195,
+        -93.2827625
+    ],
+    "Arkansas, Sebastian": [
+        35.1770785,
+        -94.2654285
+    ],
+    "New York, Essex": [
+        44.0638879,
+        -73.7542043
+    ],
+    "Virginia, Richmond City": [
+        37.5289588,
+        -77.4381069
+    ],
+    "Washington, Franklin": [
+        46.5654696,
+        -118.8935483
+    ],
+    "Virginia, Norfolk City": [
+        36.8889933,
+        -76.2481624
+    ],
+    "Arkansas, Pope": [
+        35.453867,
+        -93.0498623
+    ],
+    "Pennsylvania, Monroe": [
+        41.0400423,
+        -75.3249475
+    ],
+    "Louisiana, Ascension": [
+        30.2116442,
+        -90.9186104
+    ],
+    "Ohio, Columbiana": [
+        40.7787016,
+        -80.7648602
+    ],
+    "Pennsylvania, Washington": [
+        40.1943798,
+        -80.2541251
+    ],
+    "Minnesota, Scott": [
+        44.6506998,
+        -93.5025726
+    ],
+    "New York, Westchester": [
+        41.1763139,
+        -73.7907554
+    ],
+    "Arizona, Yavapai": [
+        34.5668857,
+        -112.5515965
+    ],
+    "New Mexico, Grant": [
+        32.7548776,
+        -108.3634144
+    ],
+    "Idaho, Boise": [
+        43.6166163,
+        -116.200886
+    ],
+    "California, Fresno": [
+        36.7295295,
+        -119.708861260756
+    ],
+    "California, Shasta": [
+        40.7965121,
+        -121.9979194
+    ],
+    "Wyoming, Uinta": [
+        41.2631855,
+        -110.5678519
+    ],
+    "Illinois, Effingham": [
+        39.0520902,
+        -88.6029006
+    ],
+    "Maine, Cumberland": [
+        43.8506432,
+        -70.4001498
+    ],
+    "Florida, Liberty": [
+        30.2506943,
+        -84.8955989
+    ],
+    "Colorado, Prowers": [
+        37.9455797,
+        -102.4130793
+    ],
+    "Wisconsin, Vilas": [
+        46.0382686,
+        -89.4734462
+    ],
+    "Pennsylvania, Luzerne": [
+        41.1749635,
+        -75.9695233
+    ],
+    "Washington, Stevens": [
+        48.4249969,
+        -117.8489411
+    ],
+    "Arkansas, Crittenden": [
+        35.2505701,
+        -90.3192299
+    ],
+    "North Carolina, Montgomery": [
+        35.3299572,
+        -79.8979019
+    ],
+    "Indiana, Huntington": [
+        40.8008286,
+        -85.5018494
+    ],
+    "New Jersey, Monmouth": [
+        40.2932319,
+        -74.1671114
+    ],
+    "California, San Diego": [
+        32.7174209,
+        -117.1627714
+    ],
+    "New Mexico, Rio Arriba": [
+        36.5488273,
+        -106.8155233
+    ],
+    "Louisiana, St. John the Baptist": [
+        30.1141748,
+        -90.5276838
+    ],
+    "New Hampshire, Rockingham": [
+        42.9966675,
+        -71.1003143
+    ],
+    "Ohio, Belmont": [
+        40.0057737,
+        -81.0097516
+    ],
+    "Virginia, Alexandria City": [
+        38.8147596,
+        -77.0902476527272
+    ],
+    "Wyoming, Natrona": [
+        42.9487008,
+        -106.8465639
+    ],
+    "Virginia, Frederick": [
+        39.2127031,
+        -78.279166
+    ],
+    "Iowa, Scott": [
+        41.6251843,
+        -90.6164201
+    ],
+    "Montana, Lake": [
+        47.3752671,
+        -109.6387579
+    ],
+    "Arizona, Coconino": [
+        35.9363252,
+        -111.6948197
+    ],
+    "Illinois, Macon": [
+        39.8455208,
+        -88.9602376
+    ],
+    "Maryland, Frederick": [
+        39.4142186,
+        -77.4109269
+    ],
+    "Washington, Mason": [
+        47.3429635,
+        -123.1822758
+    ],
+    "Idaho, Lemhi": [
+        44.9321886,
+        -113.852998
+    ],
+    "Illinois, Clark": [
+        39.3260541,
+        -87.7838526
+    ],
+    "Illinois, Madison": [
+        38.811063,
+        -89.9017112
+    ],
+    "North Carolina, Duplin": [
+        34.9464988,
+        -77.9320171
+    ],
+    "North Carolina, Hyde": [
+        35.3935017,
+        -76.1253302
+    ],
+    "Oregon, Benton": [
+        44.494937,
+        -123.4065679
+    ],
+    "South Carolina, Berkeley": [
+        33.1595951,
+        -79.9070461
+    ],
+    "South Carolina, Horry": [
+        33.9204504,
+        -78.9578973
+    ],
+    "Alabama, Jefferson": [
+        33.5228184,
+        -86.9164513
+    ],
+    "Minnesota, Cook": [
+        47.9149076,
+        -90.47301
+    ],
+    "Delaware, New Castle": [
+        39.6159851,
+        -75.662956
+    ],
+    "Iowa, Story": [
+        42.0161612,
+        -93.489194
+    ],
+    "Ohio, Meigs": [
+        39.1099292,
+        -82.0420769
+    ],
+    "New York, Rensselaer": [
+        42.7091389,
+        -73.5107732
+    ],
+    "Oregon, Wasco": [
+        45.0430227,
+        -121.2154207
+    ],
+    "Colorado, Garfield": [
+        39.5462048,
+        -107.8776144
+    ],
+    "Florida, Flagler": [
+        29.4844412,
+        -81.2917415
+    ],
+    "Indiana, Hendricks": [
+        39.7565309,
+        -86.5173641
+    ],
+    "Iowa, Woodbury": [
+        42.3775361,
+        -96.0607187
+    ],
+    "Maryland, Washington": [
+        39.5893502,
+        -77.710254
+    ],
+    "Ohio, Franklin": [
+        40.0283162,
+        -83.0076657
+    ],
+    "Minnesota, Wright": [
+        45.1489061,
+        -93.9639196
+    ],
+    "Ohio, Ashtabula": [
+        41.7167229,
+        -80.74947
+    ],
+    "Kentucky, Washington": [
+        37.7310874,
+        -85.1750475
+    ],
+    "Virginia, Rockbridge": [
+        37.8331804,
+        -79.4622597
+    ],
+    "Minnesota, Beltrami": [
+        47.9978537,
+        -94.8799011
+    ],
+    "Montana, Sheridan": [
+        48.7625919,
+        -104.5154683
+    ],
+    "New York, Rockland": [
+        41.1519319,
+        -74.0357266
+    ],
+    "North Dakota, Billings": [
+        47.0456305,
+        -103.3943708
+    ],
+    "Texas, Fayette": [
+        29.8381635,
+        -96.9559692
+    ],
+    "California, Madera": [
+        37.1716264,
+        -119.7737991
+    ],
+    "New Jersey, Passaic": [
+        41.0461864,
+        -74.3177933
+    ],
+    "Oklahoma, Bryan": [
+        33.95386,
+        -96.3154827
+    ],
+    "Florida, Hamilton": [
+        30.5232289,
+        -82.9763531
+    ],
+    "Missouri, Saint Louis": [
+        38.6268039,
+        -90.1994097
+    ],
+    "Pennsylvania, Blair": [
+        40.4870748,
+        -78.3682329
+    ],
+    "North Carolina, Person": [
+        36.3967816,
+        -78.9882995
+    ],
+    "Massachusetts, Suffolk": [
+        42.3544455,
+        -70.9788771
+    ],
+    "North Carolina, Watauga": [
+        36.2228105,
+        -81.6863808
+    ],
+    "Missouri, Andrew": [
+        39.9845508,
+        -94.8090258
+    ],
+    "Alabama, Elmore": [
+        32.5801231,
+        -86.125195
+    ],
+    "California, Alpine": [
+        38.5893934,
+        -119.8345013
+    ],
+    "Wisconsin, Outagamie": [
+        44.41603,
+        -88.4602005
+    ],
+    "Missouri, Greene": [
+        37.2671929,
+        -93.3465486
+    ],
+    "New Hampshire, Hillsborough": [
+        42.9373379,
+        -71.751376
+    ],
+    "North Carolina, Rowan": [
+        35.6315952,
+        -80.5171754
+    ],
+    "West Virginia, Cabell": [
+        38.4200892,
+        -82.2316907
+    ]
+}
