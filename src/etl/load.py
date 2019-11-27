@@ -10,6 +10,7 @@ import os
 import pandas as pd
 
 RAW_DATA = 'data/raw/'
+PREPARED_DATA = 'data/prepared'
 
 
 def _load(subpath):
