@@ -46,14 +46,15 @@ def make_lat_lon_map(inputs, output_json_file='data/latlon.json', load_from='dat
     errors = []
     for query in inputs:
         query = str(query)
-        g = geocoder.osm(query)
+        if query not in json_acc:
+            g = geocoder.osm(query)
 
-        if not g.ok:
-            print("[ WRN ]", query, "--", str(g))
-            errors.append(query)
-            dump_errors(errors)
+            if not g.ok:
+                print("[ WRN ]", query, "--", str(g))
+                errors.append(query)
+                dump_errors(errors)
 
-        else:
-            print("[ MAP ] Found", g.latlng, "for", query)
-            json_acc[query] = g.latlng
-            dump(json_acc)
+            else:
+                print("[ MAP ] Found", g.latlng, "for", query)
+                json_acc[query] = g.latlng
+                dump(json_acc)

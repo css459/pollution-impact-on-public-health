@@ -10,9 +10,13 @@ import os
 import re
 
 import pandas as pd
+from src.etl.preprocess import make_lat_lon_map
 
 RAW_DATA = 'data/raw/'
 PREPARED_DATA = 'data/prepared'
+
+with open('data/latlon.json', 'r') as fp:
+    lat_lon_json = json.load(fp)
 
 
 def _load(subpath):
@@ -25,6 +29,23 @@ def _load(subpath):
         li.append(df)
 
     return pd.concat(li, axis=0, ignore_index=True)
+
+
+def _get_lat_lon(q):
+    if q in lat_lon_json:
+        return lat_lon_json[q]
+    else:
+        return [None, None]
+
+
+def _change_precision(a, prec=0):
+    acc = []
+    for e in a:
+        if e is None:
+            acc.append(None)
+        else:
+            acc.append(round(float(e), prec))
+    return acc
 
 
 def load_tri():
@@ -67,7 +88,16 @@ def load_tri():
     d = pd.get_dummies(combined['industry_sector'], prefix='sector')
     df = pd.concat([combined, d], axis=1).drop(['industry_sector'], axis=1)
 
-    return df
+    # Fix schema
+    df.year = df.year.astype(int)
+    df.lat = df.lat.astype(float)
+    df.lon = df.lon.astype(float)
+
+    # Shift Precision
+    df.lat = _change_precision(df.lat)
+    df.lon = _change_precision(df.lon)
+
+    return df.dropna()
 
 
 def load_aqi():
@@ -94,8 +124,27 @@ def load_aqi():
     # Pivot defining_parameter column
     d = pd.get_dummies(combined['defining_parameter'], prefix='defining')
     df = pd.concat([combined, d], axis=1).drop(['defining_parameter'], axis=1)
+    df = df.dropna().groupby(by=['year', 'state_name', 'county_name'], as_index=False).mean()
 
-    return df
+    # Convert to Lat/Lon
+    loc = list(df.state_name + ", " + df.county_name)
+    make_lat_lon_map(list(set(loc)))
+
+    lat = [_get_lat_lon(i)[0] for i in loc]
+    lon = [_get_lat_lon(i)[1] for i in loc]
+
+    df['lat'] = _change_precision(lat)
+    df['lon'] = _change_precision(lon)
+
+    # Fix Schema
+    df.year = df.year.astype(int)
+    df.lat = df.lat.astype(float)
+    df.lon = df.lon.astype(float)
+
+    # Group up
+    df = df.dropna().groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
+
+    return df.dropna()
 
 
 def load_cancer():
@@ -147,6 +196,26 @@ def load_cancer():
             ntmp.append(tt)
 
     cancer.msa = ntmp
+    cancer = cancer.dropna()
+
+    # Convert to Lat/Lon
+    loc = list(cancer.msa)
+    make_lat_lon_map(list(set(loc)))
+
+    lat = [_get_lat_lon(i)[0] for i in loc]
+    lon = [_get_lat_lon(i)[1] for i in loc]
+
+    cancer['lat'] = _change_precision(lat, prec=0)
+    cancer['lon'] = _change_precision(lon, prec=0)
+
+    # Fix Schema
+    cancer.year = cancer.year.astype(int)
+    cancer.lat = cancer.lat.astype(float)
+    cancer.lon = cancer.lon.astype(float)
+
+    # Group up
+    cancer = cancer.dropna().groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
+
     return cancer.dropna()
 
 
@@ -172,105 +241,56 @@ def load_life_exp():
     life = life.rename(columns={'life_expectancy': 'life_expectancy_avg'})
     life = life.drop('life_expectancy_range', axis=1).dropna()
 
-    return life.groupby(['state', 'county'], as_index=False).mean()
+    life = life.groupby(['state', 'county'], as_index=False).mean()
+
+    # Convert to Lat/Lon
+    print("Getting lat lon list")
+    loc = list(life.state + ", " + life.county)
+    make_lat_lon_map(list(set(loc)))
+
+    lat = [_get_lat_lon(i)[0] for i in loc]
+    lon = [_get_lat_lon(i)[1] for i in loc]
+
+    life['lat'] = _change_precision(lat, prec=0)
+    life['lon'] = _change_precision(lon, prec=0)
+
+    # Fix Schema
+    life.lat = life.lat.astype(float)
+    life.lon = life.lon.astype(float)
+
+    # Group up
+    life = life.dropna().groupby(by=['lat', 'lon'], as_index=False).sum()
+
+    return life.dropna()
 
 
 def load_cancer_tri_aqi():
-    lat_lon_json = {}
-    with open('data/latlon.json', 'r') as fp:
-        lat_lon_json = json.load(fp)
-
-    def get_lat_lon(q):
-        if q in lat_lon_json:
-            return lat_lon_json[q]
-        else:
-            return [None, None]
-
-    def change_precision(a, prec=3):
-        if None not in a:
-            return [round(float(e), prec) for e in a]
-        else:
-            return None
-
-    print("[ LOAD ] Loading Cancer...")
-    cancer = load_cancer()
-    loc = list(cancer.msa)
-    lat = [get_lat_lon(i)[0] for i in loc]
-    lon = [get_lat_lon(i)[1] for i in loc]
-
-    cancer['lat'] = change_precision(lat)
-    cancer['lon'] = change_precision(lon)
-
-    print(cancer)
+    print("[ LOAD ] Loading AQI...")
+    aqi = load_aqi()
+    print(aqi)
 
     print("[ LOAD ] Loading TRI...")
     tri = load_tri()
-    tri['lat'] = change_precision(list(tri.lat))
-    tri['lon'] = change_precision(list(tri.lon))
-
     print(tri)
 
-    print("[ LOAD ] Loading AQI...")
-    aqi = load_aqi()
-    loc = list(aqi.state_name + ", " + aqi.county_name)
-    lat = [get_lat_lon(i)[0] for i in loc]
-    lon = [get_lat_lon(i)[1] for i in loc]
-
-    aqi['lat'] = change_precision(lat)
-    aqi['lon'] = change_precision(lon)
-
-    print(aqi)
-
-    print("[ LOAD ] Loading Life Exp...")
+    print("[ LOAD ] Loading Life...")
     life = load_life_exp()
-    loc = list(life.state + ", " + life.county)
-    lat = [get_lat_lon(i)[0] for i in loc]
-    lon = [get_lat_lon(i)[1] for i in loc]
-
-    life['lat'] = change_precision(lat)
-    life['lon'] = change_precision(lon)
-
     print(life)
 
-    # Group up
-    aqi = aqi.dropna().groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
-    tri = tri.dropna().groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
-    life = life.dropna().groupby(by=['lat', 'lon'], as_index=False).sum()
-    cancer = cancer.dropna().groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
+    print("[ LOAD ] Loading Cancer...")
+    cancer = load_cancer()
+    print(cancer)
 
-    # Split up the join due to memory constraint
-    joined = pd.concat([aqi, tri, cancer], join='outer', ignore_index=True)
-    merged = joined.groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
+    # Join
+    j = aqi.merge(tri, on=['year', 'lat', 'lon'], how='inner')
+    j = j.merge(cancer, on=['year', 'lat', 'lon'], how='left')
+    j = j.merge(life, on=['lat', 'lon'], how='left')
+    j = j.dropna()
 
-    print(merged)
-
-    # merged = pd.merge(aqi, tri, on=['year', 'lat', 'lon'])
-    # merged = pd.merge(merged, cancer, on=['year', 'lat', 'lon'])
-    # merged = pd.merge(merged, life, on=['year', 'lat', 'lon'])
-    # merged3 = pd.join([merged, life]).groupby(by=['lat', 'lon']).sum()
-
-    merged = pd.concat([merged, life], join='outer', ignore_index=True)
-    merged = merged.groupby(by=['lat', 'lon'], as_index=False).sum()
-
-    print(merged)
-
-    merged = merged.dropna()
-    merged.to_csv('data/merged.csv')
-
-    # TODO: Fix merge
-    return merged
+    j.to_csv('data/merged.csv', index=False)
+    return j
 
 
 if __name__ == '__main__':
     m = load_cancer_tri_aqi()
-
-    # TODO Rerun
-    # out = load_life_exp()
-    # print('[ INF ] Starting Lat Lon Table for Life Exp')
-    # loc = list(out.state + ", " + out.county)
-    # # loc = out.msa
-    # loc = list(set(loc))
-
-    # from src.etl.preprocess import make_lat_lon_map
-    #
-    # make_lat_lon_map(loc)
+    m.to_csv("data/merged.csv", index=False)
