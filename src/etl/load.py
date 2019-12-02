@@ -10,6 +10,7 @@ import os
 import re
 
 import pandas as pd
+
 from src.etl.preprocess import make_lat_lon_map
 
 RAW_DATA = 'data/raw/'
@@ -264,7 +265,10 @@ def load_life_exp():
     return life.dropna()
 
 
-def load_cancer_tri_aqi():
+def load_cancer_tri_aqi(from_file=True):
+    if from_file:
+        return pd.read_csv('data/merged.csv')
+
     print("[ LOAD ] Loading AQI...")
     aqi = load_aqi()
     print(aqi)
@@ -292,5 +296,5 @@ def load_cancer_tri_aqi():
 
 
 if __name__ == '__main__':
-    m = load_cancer_tri_aqi()
+    m = load_cancer_tri_aqi(from_file=False)
     m.to_csv("data/merged.csv", index=False)
