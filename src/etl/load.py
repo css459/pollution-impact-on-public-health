@@ -158,7 +158,7 @@ def load_cancer():
     cancer.columns = [c.replace(' ', '_').lower() for c in cancer.columns]
 
     # Pivot criteria
-    d = pd.get_dummies(cancer['leading_cancer_sites'], prefix='')
+    d = pd.get_dummies(cancer['leading_cancer_sites'], prefix='cancer')
     cancer = pd.concat([cancer, d], axis=1).drop(['leading_cancer_sites'], axis=1)
 
     # Fix MSA
@@ -265,7 +265,7 @@ def load_life_exp():
     return life.dropna()
 
 
-def load_cancer_tri_aqi(from_file=True):
+def load_all(from_file=True):
     if from_file:
         return pd.read_csv('data/merged.csv')
 
@@ -296,5 +296,5 @@ def load_cancer_tri_aqi(from_file=True):
 
 
 if __name__ == '__main__':
-    m = load_cancer_tri_aqi(from_file=False)
+    m = load_all(from_file=False)
     m.to_csv("data/merged.csv", index=False)

@@ -7,6 +7,55 @@
 import json
 
 import geocoder
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import MaxAbsScaler
+
+
+def split(df, y_cols=None, pct=0.20, shuffle=True, normalize=True):
+    """
+    Splits DataFrame into training and test sets. If `y_cols`
+    is provided, also breaks out those columns as a separate
+    Numpy Array. Will return either:
+        x, y
+        or
+        x_train, y_train, x_test, y_test
+
+    :param df:          DataFrame to split
+    :param y_cols:      Y columns of DataFrame
+    :param pct:         Validation Percent
+    :param shuffle:     Shuffle the rows before splitting
+    :param normalize    Scale the data using MaxAbsScaler
+    :return:            Numpy Arrays
+    """
+    if y_cols:
+        y = df[y_cols]
+        cols = [c for c in df.columns if c not in y_cols]
+        x = df[cols]
+
+        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=pct, shuffle=shuffle)
+
+        # Fit the scaler to training only
+        if normalize:
+            x_scaler = MaxAbsScaler()
+            x_scaler.fit(x_train)
+            y_scaler = MaxAbsScaler()
+            y_scaler.fit(y_train)
+
+            return x_scaler.transform(x_train), y_scaler.transform(y_train), \
+                   x_scaler.transform(x_test), y_scaler.transform(y_test)
+        else:
+            return x_train, y_train, x_test, y_test
+    else:
+        # No Y columns provided, simply split the data
+        x_train, x_test = train_test_split(df, test_size=pct, shuffle=shuffle)
+
+        # Fit the scaler to training only
+        if normalize:
+            x_scaler = MaxAbsScaler()
+            x_scaler.fit(x_train)
+            return x_scaler.transform(x_train), x_scaler.transform(x_test)
+        else:
+            return x_train, x_test
 
 
 def make_lat_lon_map(inputs, output_json_file='data/latlon.json', load_from='data/latlon.json'):
