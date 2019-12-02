@@ -3,12 +3,16 @@ from src.etl.preprocess import split
 from src.model.features import sma_featurizer
 
 # Load the merged data set
-df = load_all()
+df = load_all(from_file=True)
 
 # Featurize the merged data by add the Exponential
 # Moving Average for each column for 1, 2, and 3 year
 # windows as separate columns
-df = sma_featurizer(df)
+#
+# Reason: Assumption that places with consistently
+# high past past pollution will have higher cancer rates
+# that those with only high *current* pollution
+df = sma_featurizer(df, ema=False)
 
 # Scale, shuffle, split the merged data
 # We will consider the "cancer" columns

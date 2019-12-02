@@ -90,9 +90,10 @@ def load_tri():
     df = pd.concat([combined, d], axis=1).drop(['industry_sector'], axis=1)
 
     # Fix schema
+    df = df.dropna()
     df.year = df.year.astype(int)
-    df.lat = df.lat.astype(float)
-    df.lon = df.lon.astype(float)
+    df.lat = df.lat.astype(int)
+    df.lon = df.lon.astype(int)
 
     # Shift Precision
     df.lat = _change_precision(df.lat)
@@ -138,9 +139,10 @@ def load_aqi():
     df['lon'] = _change_precision(lon)
 
     # Fix Schema
+    df = df.dropna()
     df.year = df.year.astype(int)
-    df.lat = df.lat.astype(float)
-    df.lon = df.lon.astype(float)
+    df.lat = df.lat.astype(int)
+    df.lon = df.lon.astype(int)
 
     # Group up
     df = df.dropna().groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
@@ -210,9 +212,10 @@ def load_cancer():
     cancer['lon'] = _change_precision(lon, prec=0)
 
     # Fix Schema
+    cancer = cancer.dropna()
     cancer.year = cancer.year.astype(int)
-    cancer.lat = cancer.lat.astype(float)
-    cancer.lon = cancer.lon.astype(float)
+    cancer.lat = cancer.lat.astype(int)
+    cancer.lon = cancer.lon.astype(int)
 
     # Group up
     cancer = cancer.dropna().groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
@@ -256,8 +259,9 @@ def load_life_exp():
     life['lon'] = _change_precision(lon, prec=0)
 
     # Fix Schema
-    life.lat = life.lat.astype(float)
-    life.lon = life.lon.astype(float)
+    life = life.dropna()
+    life.lat = life.lat.astype(int)
+    life.lon = life.lon.astype(int)
 
     # Group up
     life = life.dropna().groupby(by=['lat', 'lon'], as_index=False).sum()
@@ -287,9 +291,12 @@ def load_all(from_file=True):
 
     # Join
     j = aqi.merge(tri, on=['year', 'lat', 'lon'], how='inner')
-    j = j.merge(cancer, on=['year', 'lat', 'lon'], how='left')
+    j = j.merge(cancer, on=['year', 'lat', 'lon'], how='inner')
     j = j.merge(life, on=['lat', 'lon'], how='left')
     j = j.dropna()
+
+    # TODO: Fix weird behavior with duplicated rows in merge that make this line necessary
+    j = j.groupby(by=['year', 'lat', 'lon'], as_index=False).mean()
 
     j.to_csv('data/merged.csv', index=False)
     return j
@@ -297,4 +304,3 @@ def load_all(from_file=True):
 
 if __name__ == '__main__':
     m = load_all(from_file=False)
-    m.to_csv("data/merged.csv", index=False)
