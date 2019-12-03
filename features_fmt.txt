@@ -1,0 +1,399 @@
+ema2_m56
+ema1_m26
+ema3_defining_PM10
+ema1_production_waste
+ema3_sector_Electrical Equipment
+ema3_water
+defining_PM2.5
+fugitive_air
+ema1_defining_Ozone
+m41
+sector_Primary Metals
+ema3_m65
+ema2_trns_rlse
+m20
+ema3_m40_non-metal
+ema2_m95
+m61_non-metal
+ema2_m62
+m26
+ema2_trns_trt
+ema1_sector_Electrical Equipment
+ema3_defining_NO2
+defining_CO
+ema1_water
+defining_SO2
+sector_Nonmetallic Mineral Product
+m94
+ema3_defining_SO2
+ema1_defining_PM2.5
+ema1_m92
+ema1_m69
+m64
+ema2_sector_Fabricated Metals
+ema2_m65
+ema1_off-site_recycled_total
+population
+ema2_sector_Miscellaneous Manufacturing
+sector_Wood Products
+ema2_sector_Primary Metals
+m24
+ema1_m40_non-metal
+ema1_m20
+m56
+ema2_m26
+ema3_m10
+off-site_release_total
+sector_Petroleum
+ema1_total_transfer
+ema3_m20
+ema3_fugitive_air
+ema1_sector_Fabricated Metals
+ema2_m67
+ema2_m69
+sector_Computers and Electronic Products
+ema2_m40_non-metal
+ema3_m90
+ema2_total_transfers
+m10
+ema2_m50
+ema2_sector_Nonmetallic Mineral Product
+ema1_off-site_release_total
+rcra_surface_im
+ema2_sector_Chemical Wholesalers
+ema2_water
+m90
+ema1_sector_Paper
+ema2_m94
+ema1_sector_Tobacco
+ema2_m64
+production_waste
+ema2_off-site_recycled_total
+sector_Other
+ema3_m54
+sector_Plastics and Rubber
+m73
+stack_air
+ema3_m41
+ema1_defining_SO2
+other_landfills
+off-site_recycled_total
+on-site_release_total
+ema1_m73
+off-site_treated_total
+ema1_m54
+rcra_c_landfill
+ema3_sector_Petroleum
+ema1_m50
+ema1_m93
+ema3_m69
+ema3_rcra_surface_im
+ema1_sector_Other
+ema3_sector_Furniture
+m65
+aqi
+ema2_on-site_contained
+m81
+ema2_m82
+ema2_sector_Wood Products
+ema2_sector_Paper
+ema3_sector_Miscellaneous Manufacturing
+ema2_m61_non-metal
+total_transfer
+m28
+ema1_sector_Machinery
+defining_Ozone
+ema3_defining_PM2.5
+ema1_sector_Primary Metals
+ema3_m26
+m66
+ema1_trns_trt
+ema2_aqi
+ema3_m95
+sector_Chemical Wholesalers
+ema3_population
+ema1_m65
+m95
+ema2_stack_air
+ema2_m99
+defining_NO2
+m92
+ema3_total_transfer
+other_surface_i
+m40_metal
+underground_c_ii-v
+defining_PM10
+m40_non-metal
+underground
+ema2_total_transfer
+land_treatment
+ema3_sector_Other
+ema3_aqi
+ema2_sector_Transportation Equipment
+underground_cl_i
+surface_impndmnt
+ema2_off-site_contain
+total_transfers
+ema3_defining_CO
+ema2_m20
+ema2_other_landfills
+ema2_m61_metal
+water
+ema2_sector_Leather
+landfills
+ema1_m95
+trns_rlse
+ema2_total_releases
+ema3_sector_Paper
+ema3_sector_Electric Utilities
+trns_trt
+ema2_m66
+ema2_sector_Chemicals
+ema2_sector_Petroleum
+ema2_fugitive_air
+ema2_sector_Coal Mining
+m67
+ema2_sector_Electric Utilities
+ema3_m81
+ema2_m40_metal
+m71
+ema1_sector_Computers and Electronic Products
+ema2_m72
+m79
+ema1_off-site_contain
+ema1_sector_Beverages
+ema3_sector_Apparel
+ema2_sector_Petroleum Bulk Terminals
+ema1_releases
+ema2_m71
+ema1_on-site_contained
+ema3_off-site_contain
+ema3_sector_Chemical Wholesalers
+ema2_underground_cl_i
+ema2_land_treatment
+ema1_m64
+ema2_on-site_release_total
+ema2_m93
+ema2_sector_Metal Mining
+ema2_rcra_c_landfill
+ema3_m61_non-metal
+m93
+m82
+ema3_m67
+ema3_defining_Ozone
+ema2_count
+ema2_m90
+ema3_on-site_contained
+ema1_aqi
+m72
+m61_metal
+ema2_m63
+ema3_m24
+sector_Electric Utilities
+ema1_sector_Petroleum Bulk Terminals
+m54
+ema2_m54
+ema3_sector_Nonmetallic Mineral Product
+m62
+ema1_m61_non-metal
+ema3_sector_Machinery
+sector_Beverages
+m99
+m63
+m50
+ema1_underground_c_ii-v
+ema1_m56
+ema2_releases
+ema2_sector_Textile Product
+on-site_contained
+ema1_sector_Miscellaneous Manufacturing
+ema1_sector_Chemical Wholesalers
+ema3_land_treatment
+ema2_surface_impndmnt
+ema1_sector_Nonmetallic Mineral Product
+ema2_sector_Furniture
+ema2_m24
+off-site_contain
+ema2_m92
+ema2_off-site_treated_total
+m69
+ema3_rcra_c_landfill
+ema3_off-site_release_total
+sector_Electrical Equipment
+ema2_m41
+ema2_sector_Textiles
+ema3_sector_Leather
+sector_Fabricated Metals
+ema1_sector_Petroleum
+ema2_landfills
+sector_Furniture
+sector_Apparel
+ema2_sector_Electrical Equipment
+sector_Miscellaneous Manufacturing
+ema2_production_waste
+ema3_stack_air
+ema3_sector_Food
+ema2_m73
+ema3_trns_rlse
+sector_Chemicals
+ema2_life_expectancy_avg
+total_releases
+sector_Coal Mining
+ema3_m79
+ema3_sector_Hazardous Waste
+ema3_m99
+ema1_sector_Chemicals
+ema2_rcra_surface_im
+ema3_m92
+sector_Hazardous Waste
+ema2_underground
+ema3_landfills
+ema1_defining_NO2
+ema2_off-site_release_total
+ema2_m28
+ema1_sector_Coal Mining
+ema2_m10
+sector_Machinery
+ema2_population
+releases
+sector_Textile Product
+sector_Textiles
+ema3_m73
+ema3_surface_impndmnt
+ema3_sector_Petroleum Bulk Terminals
+ema2_m79
+ema2_sector_Tobacco
+ema2_sector_Printing
+sector_Paper
+sector_Printing
+ema1_m81
+ema3_m64
+ema3_trns_trt
+sector_Leather
+sector_Food
+ema1_trns_rlse
+ema2_sector_Plastics and Rubber
+life_expectancy_max
+life_expectancy_avg
+sector_Publishing
+ema2_underground_c_ii-v
+sector_Transportation Equipment
+sector_Metal Mining
+ema1_sector_Plastics and Rubber
+ema2_life_expectancy_max
+sector_Tobacco
+ema3_releases
+ema3_underground_cl_i
+ema3_m82
+ema1_off-site_treated_total
+ema3_underground
+ema3_m40_metal
+ema2_sector_Apparel
+ema1_on-site_release_total
+ema3_sector_Plastics and Rubber
+ema2_m81
+ema3_m50
+ema1_stack_air
+ema3_other_landfills
+ema3_m61_metal
+ema2_defining_SO2
+ema2_defining_PM2.5
+ema1_fugitive_air
+sector_Petroleum Bulk Terminals
+ema1_sector_Food
+ema3_production_waste
+ema3_total_releases
+ema1_sector_Leather
+ema2_sector_Beverages
+life_expectancy_min
+ema1_sector_Furniture
+ema1_underground_cl_i
+ema1_landfills
+ema3_sector_Primary Metals
+ema3_m62
+ema1_underground
+ema3_other_surface_i
+ema2_sector_Computers and Electronic Products
+ema1_surface_impndmnt
+ema3_m72
+ema2_defining_PM10
+ema1_rcra_c_landfill
+ema1_sector_Hazardous Waste
+ema3_sector_Beverages
+ema1_sector_Electric Utilities
+ema1_m61_metal
+ema1_land_treatment
+ema1_m10
+ema3_sector_Printing
+ema1_rcra_surface_im
+ema3_sector_Publishing
+ema1_other_surface_i
+ema1_other_landfills
+ema1_sector_Printing
+ema2_sector_Machinery
+ema1_sector_Publishing
+ema3_m63
+ema2_sector_Food
+ema3_sector_Textile Product
+ema1_total_transfers
+ema3_sector_Textiles
+ema3_sector_Transportation Equipment
+ema2_other_surface_i
+ema1_m62
+ema1_m41
+ema2_sector_Hazardous Waste
+ema1_sector_Textile Product
+ema3_m66
+ema3_m71
+ema1_m71
+ema1_m66
+ema3_sector_Computers and Electronic Products
+ema3_sector_Chemicals
+ema2_life_expectancy_min
+ema1_m63
+ema1_m82
+ema3_sector_Coal Mining
+ema1_sector_Apparel
+ema2_sector_Publishing
+ema1_m72
+ema3_off-site_recycled_total
+ema3_underground_c_ii-v
+ema2_defining_Ozone
+ema1_defining_CO
+ema1_m40_metal
+ema3_sector_Fabricated Metals
+ema3_on-site_release_total
+ema3_sector_Metal Mining
+ema1_m28
+ema1_m79
+ema3_m93
+ema1_sector_Metal Mining
+ema2_defining_NO2
+ema1_m24
+ema3_off-site_treated_total
+ema1_total_releases
+ema1_m94
+ema3_m94
+ema2_defining_CO
+ema1_m67
+ema1_m99
+ema1_defining_PM10
+ema1_sector_Textiles
+ema1_sector_Transportation Equipment
+ema3_sector_Tobacco
+ema3_sector_Wood Products
+ema3_total_transfers
+ema1_sector_Wood Products
+ema2_sector_Other
+ema3_m28
+ema1_m90
+ema1_count
+ema1_population
+ema3_count
+ema3_life_expectancy_avg
+ema1_life_expectancy_avg
+ema3_life_expectancy_max
+ema1_life_expectancy_max
+ema1_life_expectancy_min
+ema3_m56
+ema3_life_expectancy_min

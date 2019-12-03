@@ -74,5 +74,6 @@ def elastic_feature_select(x_train, y_train, elastic_alpha=1.0, elastic_l1_ratio
     :return:                    Array of indexes of the best found features
     """
     enet = ElasticNet(alpha=elastic_alpha, l1_ratio=elastic_l1_ratio)
-
-    rfe = RFECV()
+    rfe = RFECV(enet, scoring='r2', n_jobs=-1, verbose=2)
+    rfe.fit(x_train, y_train)
+    return rfe
