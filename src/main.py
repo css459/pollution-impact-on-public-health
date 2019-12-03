@@ -28,15 +28,15 @@ print(y_cols)
 
 x_train, y_train, x_test, y_test = split(df, y_cols=y_cols)
 
-# # Visualize the initial clusters of age-adjusted cancer
-# # rates for each area. We will group each area
-# # by adding up all the years observed
-# from src.model.cluster import view_pca
-#
-# grouped = df.groupby(by=['lat', 'lon']).sum()
-# cancer_cols = [c for c in df.columns if "cancer" in c]
-# print(cancer_cols)
-# view_pca(grouped.drop(cancer_cols, 1), 'age-adjusted_rate',
-#          title="All Merged Data w. EMA, Colored by Age-Adjusted Cancer Rates\n\n",
-#          xlabel="First Component",
-#          ylabel="Second Component")
+# Visualize the initial clusters of age-adjusted cancer
+# rates for each area. We will group each area
+# by adding up all the years observed
+from src.model.cluster import view_pca
+
+grouped = df.groupby(by=['lat', 'lon']).sum()
+cancer_cols = [c for c in df.columns if "cancer" in c]
+print(cancer_cols)
+view_pca(grouped.drop(cancer_cols, 1), 'age-adjusted_rate',
+         title="All Merged Data w. EMA, Colored by Age-Adjusted Cancer Rates\n\n",
+         xlabel="First Component",
+         ylabel="Second Component")

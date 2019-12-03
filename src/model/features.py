@@ -11,7 +11,7 @@ from sklearn.linear_model import ElasticNet
 def sma_featurizer(df, by=None, lags=None, ema=True):
     """
     Computes the SMA of each column, grouped by
-    the `by` set. This follows for each `lag` in
+    the `by` set. This follows for each `i` in
     `lags`. The default `by` is `[lat, lon]`. The
     default `lags` is `[1,2,3]`, which represent years
     in the merged dataset in this project. SMA
@@ -19,7 +19,7 @@ def sma_featurizer(df, by=None, lags=None, ema=True):
 
     :param df:      DataFrame to featurize
     :param by:      Grouping columns (default: [lat, lon]
-    :param lags:    SMA lag periods (default: [1,2,3])
+    :param lags:    SMA i periods (default: [1,2,3])
     :param ema:     Use exponential moving averages
     :return:        Featurized DataFrame
     """
@@ -29,38 +29,35 @@ def sma_featurizer(df, by=None, lags=None, ema=True):
     if lags is None:
         lags = [1, 2, 3]
 
-    # Drop year if we're grouping by lat and lon
-    # if 'lat' in by and 'lon' in by:
-    #     df = df.drop('year', 1)
+    # Re-index DataFrame to by columns plus year
+    df = df.set_index(by + ['year'])
 
+    # Group by without year to compute SMA/EMA
     g = df.groupby(by=by)
 
-    # TODO Fix EWM on groupby
-
     # Define an inner convenience function
-    def roll(l):
+    def roll(i):
+
+        # Apply the SMA/EMA to the inner groupings, which should
+        # contain "year"
         if ema:
-            r = g.apply(lambda x: x.ewm(l).mean())
-            r.columns = by + ["ema" + str(l) + "_" + c for c in r.columns if c not in by]
+            r = g.apply(lambda x: x.sort_values(by='year').ewm(i).mean())
+            r.columns = ["ema" + str(i) + "_" + c for c in r.columns]
         else:
-            r = g.expanding(l).sum()
-            r.columns = by + ["sma" + str(l) + "_" + c for c in r.columns if c not in by]
+            r = g.apply(lambda x: x.sort_values(by='year').expanding(i).mean())
+            r.columns = ["sma" + str(i) + "_" + c for c in r.columns]
         return r
 
     # Compute for all lags
     features = roll(lags[0])
     for lag in lags[1:]:
         tmp = roll(lag)
-        features = features.merge(tmp, on=by, how='inner')
 
-    # Left join SMA/EMA features on original DataFrame
-    features_indexes = features.index
-    features = features.reset_index()
-    for i in range(len(by)):
-        b = by[i]
-        features[b] = [ind[i] for ind in features_indexes]
+        # Join on by plus year, since year is also still in index
+        features = features.join(tmp, how='inner')
 
-    return df.merge(features, on=by, how='inner')
+    # Join on the original DataFrame, sort, return
+    return df.join(features, how='inner').sort_index()
 
 
 def elastic_feature_select(x_train, y_train, elastic_alpha=1.0, elastic_l1_ratio=0.5):
