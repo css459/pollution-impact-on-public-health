@@ -5,7 +5,7 @@
 #
 
 from sklearn.feature_selection import RFECV
-from sklearn.linear_model import ElasticNet
+from sklearn.linear_model import ElasticNetCV
 
 
 def sma_featurizer(df, by=None, lags=None, ema=True):
@@ -73,7 +73,7 @@ def elastic_feature_select(x_train, y_train, elastic_alpha=1.0, elastic_l1_ratio
     :param elastic_l1_ratio:    L1 Ratio for ElasticNet model
     :return:                    Array of indexes of the best found features
     """
-    enet = ElasticNet(alpha=elastic_alpha, l1_ratio=elastic_l1_ratio)
+    enet = ElasticNetCV(n_jobs=-1, cv=5)
     rfe = RFECV(enet, scoring='r2', n_jobs=-1, verbose=2)
     rfe.fit(x_train, y_train)
     return rfe

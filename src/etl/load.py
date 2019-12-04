@@ -161,7 +161,8 @@ def load_cancer():
 
     # Pivot criteria
     d = pd.get_dummies(cancer['leading_cancer_sites'], prefix='cancer')
-    cancer = pd.concat([cancer, d], axis=1).drop(['leading_cancer_sites'], axis=1)
+    d = d.multiply(cancer['count'], axis="index")
+    cancer = pd.concat([cancer, d], axis=1).drop(['leading_cancer_sites', 'count'], axis=1)
 
     # Fix MSA
     tmp = cancer.msa

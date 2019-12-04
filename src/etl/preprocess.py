@@ -20,6 +20,8 @@ def split(df, y_cols=None, pct=0.20, shuffle=True, normalize=True):
         or
         x_train, y_train, x_test, y_test
 
+    The split is stratified by Lat and Lon.
+
     :param df:          DataFrame to split
     :param y_cols:      Y columns of DataFrame
     :param pct:         Validation Percent
@@ -27,12 +29,28 @@ def split(df, y_cols=None, pct=0.20, shuffle=True, normalize=True):
     :param normalize    Scale the data using MaxAbsScaler
     :return:            Numpy Arrays
     """
+
+    remove_lat_lon_afterwords = False
+    if 'lat' not in df or 'lon' not in df:
+        df['lat'] = [d[0] for d in df.index]
+        df['lon'] = [d[1] for d in df.index]
+        remove_lat_lon_afterwords = True
+
+    df['strat_col'] = df['lat'].astype(str) + " " + df['lon'].astype(str)
+
     if y_cols:
         y = df[y_cols]
         cols = [c for c in df.columns if c not in y_cols]
         x = df[cols]
 
-        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=pct, shuffle=shuffle)
+        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=pct, shuffle=shuffle,
+                                                            stratify=df['strat_col'])
+        x_train = x_train.drop('strat_col', 1)
+        x_test = x_test.drop('strat_col', 1)
+
+        if remove_lat_lon_afterwords:
+            x_train = x_train.drop(['lat', 'lon'], 1)
+            x_test = x_test.drop(['lat', 'lon'], 1)
 
         # Fit the scaler to training only
         if normalize:
@@ -47,7 +65,14 @@ def split(df, y_cols=None, pct=0.20, shuffle=True, normalize=True):
             return x_train, y_train, x_test, y_test
     else:
         # No Y columns provided, simply split the data
-        x_train, x_test = train_test_split(df, test_size=pct, shuffle=shuffle)
+        x_train, x_test = train_test_split(df, test_size=pct, shuffle=shuffle,
+                                           stratify=df['strat_col'])
+        x_train = x_train.drop('strat_col', 1)
+        x_test = x_test.drop('strat_col', 1)
+
+        if remove_lat_lon_afterwords:
+            x_train = x_train.drop(['lat', 'lon'], 1)
+            x_test = x_test.drop(['lat', 'lon'], 1)
 
         # Fit the scaler to training only
         if normalize:
