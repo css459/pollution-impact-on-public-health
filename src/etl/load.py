@@ -16,11 +16,18 @@ from src.etl.preprocess import make_lat_lon_map
 RAW_DATA = 'data/raw/'
 PREPARED_DATA = 'data/prepared'
 
+# Load the Lat/Lon Informtion
 with open('data/latlon.json', 'r') as fp:
     lat_lon_json = json.load(fp)
 
 
 def _load(subpath):
+    """
+    Common loadining method for CSVs in data directory.
+
+    :param subpath:     Subpath in `data`
+    :return:            DataFrame
+    """
     path = os.path.join(RAW_DATA, subpath, '*.csv')
     all_files = glob.glob(path)
 
@@ -33,6 +40,13 @@ def _load(subpath):
 
 
 def _get_lat_lon(q):
+    """
+    Returns latitude and longitude pair from generated
+    JSON file.
+
+    :param q:   String query
+    :return:    Latitude Longitude Pair
+    """
     if q in lat_lon_json:
         return lat_lon_json[q]
     else:
@@ -40,6 +54,15 @@ def _get_lat_lon(q):
 
 
 def _change_precision(a, prec=0):
+    """
+    Changes the precision of the Latitude
+    or Longitude arrays while preserving
+    sparsity.
+
+    :param a:       Input array
+    :param prec:    New Decimal Precision
+    :return:        Rounded array
+    """
     acc = []
     for e in a:
         if e is None:
@@ -98,6 +121,9 @@ def load_tri():
     # Shift Precision
     df.lat = _change_precision(df.lat)
     df.lon = _change_precision(df.lon)
+
+    # Group up
+    df = df.dropna().groupby(by=['year', 'lat', 'lon'], as_index=False).sum()
 
     return df.dropna()
 

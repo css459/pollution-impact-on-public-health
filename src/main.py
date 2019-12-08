@@ -8,6 +8,17 @@ from src.model.features import sma_featurizer
 
 
 def fit_predict(x_tr, y_tr, x_te, y_te, label):
+    """
+    Fits a prediction model in a One-vs-All fashion. Prints
+    the results to the console, and returns the classifier object.
+
+    :param x_tr:    X train
+    :param y_tr:    Y train (1D)
+    :param x_te:    X test
+    :param y_te:    Y test (1D)
+    :param label:   Label for Y column value
+    :return:        GBM regressor instance
+    """
     gbm = GradientBoostingRegressor(n_estimators=200)
     gbm.fit(x_tr, y_tr)
 
@@ -18,6 +29,8 @@ def fit_predict(x_tr, y_tr, x_te, y_te, label):
 
     print("MSE", mean_squared_error(y_te, gbm.predict(x_te)))
     print("R2 ", r2_score(y_te, gbm.predict(x_te)))
+
+    return gbm
 
     # noise = np.random.normal(0, 1, len(x_test)) * 0.05
     #
@@ -45,7 +58,7 @@ def viz():
 
 if __name__ == '__main__':
     # Load the merged data set
-    df = load_all(from_file=False)
+    df = load_all(from_file=True)
 
     # Featurize the merged data by add the Exponential
     # Moving Average for each column for 1, 2, and 3 year

@@ -1,0 +1,197 @@
+Considering X Columns:
+['aqi', 'defining_CO', 'defining_NO2', 'defining_Ozone', 'defining_PM10', 'defining_PM2.5', 'defining_SO2', 'fugitive_air', 'stack_air', 'water', 'underground', 'underground_cl_i', 'underground_c_ii-v', 'landfills', 'rcra_c_landfill', 'other_landfills', 'land_treatment', 'surface_impndmnt', 'rcra_surface_im', 'other_surface_i', 'on-site_release_total', 'trns_rlse', 'trns_trt', 'total_transfers', 'm10', 'm41', 'm62', 'm40_metal', 'm61_metal', 'm71', 'm81', 'm82', 'm72', 'm63', 'm66', 'm67', 'm64', 'm65', 'm73', 'm79', 'm90', 'm94', 'm99', 'off-site_release_total', 'm20', 'm24', 'm26', 'm28', 'm93', 'off-site_recycled_total', 'm56', 'm92', 'm40_non-metal', 'm50', 'm54', 'm61_non-metal', 'm69', 'm95', 'off-site_treated_total', 'total_transfer', 'total_releases', 'releases', 'on-site_contained', 'off-site_contain', 'production_waste', 'sector_Apparel', 'sector_Beverages', 'sector_Chemical Wholesalers', 'sector_Chemicals', 'sector_Coal Mining', 'sector_Computers and Electronic Products', 'sector_Electric Utilities', 'sector_Electrical Equipment', 'sector_Fabricated Metals', 'sector_Food', 'sector_Furniture', 'sector_Hazardous Waste', 'sector_Leather', 'sector_Machinery', 'sector_Metal Mining', 'sector_Miscellaneous Manufacturing', 'sector_Nonmetallic Mineral Product', 'sector_Other', 'sector_Paper', 'sector_Petroleum', 'sector_Petroleum Bulk Terminals', 'sector_Plastics and Rubber', 'sector_Primary Metals', 'sector_Printing', 'sector_Publishing', 'sector_Textile Product', 'sector_Textiles', 'sector_Tobacco', 'sector_Transportation Equipment', 'sector_Wood Products', 'life_expectancy_avg', 'life_expectancy_max', 'life_expectancy_min', 'ema1_aqi', 'ema1_defining_CO', 'ema1_defining_NO2', 'ema1_defining_Ozone', 'ema1_defining_PM10', 'ema1_defining_PM2.5', 'ema1_defining_SO2', 'ema1_fugitive_air', 'ema1_stack_air', 'ema1_water', 'ema1_underground', 'ema1_underground_cl_i', 'ema1_underground_c_ii-v', 'ema1_landfills', 'ema1_rcra_c_landfill', 'ema1_other_landfills', 'ema1_land_treatment', 'ema1_surface_impndmnt', 'ema1_rcra_surface_im', 'ema1_other_surface_i', 'ema1_on-site_release_total', 'ema1_trns_rlse', 'ema1_trns_trt', 'ema1_total_transfers', 'ema1_m10', 'ema1_m41', 'ema1_m62', 'ema1_m40_metal', 'ema1_m61_metal', 'ema1_m71', 'ema1_m81', 'ema1_m82', 'ema1_m72', 'ema1_m63', 'ema1_m66', 'ema1_m67', 'ema1_m64', 'ema1_m65', 'ema1_m73', 'ema1_m79', 'ema1_m90', 'ema1_m94', 'ema1_m99', 'ema1_off-site_release_total', 'ema1_m20', 'ema1_m24', 'ema1_m26', 'ema1_m28', 'ema1_m93', 'ema1_off-site_recycled_total', 'ema1_m56', 'ema1_m92', 'ema1_m40_non-metal', 'ema1_m50', 'ema1_m54', 'ema1_m61_non-metal', 'ema1_m69', 'ema1_m95', 'ema1_off-site_treated_total', 'ema1_total_transfer', 'ema1_total_releases', 'ema1_releases', 'ema1_on-site_contained', 'ema1_off-site_contain', 'ema1_production_waste', 'ema1_sector_Apparel', 'ema1_sector_Beverages', 'ema1_sector_Chemical Wholesalers', 'ema1_sector_Chemicals', 'ema1_sector_Coal Mining', 'ema1_sector_Computers and Electronic Products', 'ema1_sector_Electric Utilities', 'ema1_sector_Electrical Equipment', 'ema1_sector_Fabricated Metals', 'ema1_sector_Food', 'ema1_sector_Furniture', 'ema1_sector_Hazardous Waste', 'ema1_sector_Leather', 'ema1_sector_Machinery', 'ema1_sector_Metal Mining', 'ema1_sector_Miscellaneous Manufacturing', 'ema1_sector_Nonmetallic Mineral Product', 'ema1_sector_Other', 'ema1_sector_Paper', 'ema1_sector_Petroleum', 'ema1_sector_Petroleum Bulk Terminals', 'ema1_sector_Plastics and Rubber', 'ema1_sector_Primary Metals', 'ema1_sector_Printing', 'ema1_sector_Publishing', 'ema1_sector_Textile Product', 'ema1_sector_Textiles', 'ema1_sector_Tobacco', 'ema1_sector_Transportation Equipment', 'ema1_sector_Wood Products', 'ema1_life_expectancy_avg', 'ema1_life_expectancy_max', 'ema1_life_expectancy_min', 'ema2_aqi', 'ema2_defining_CO', 'ema2_defining_NO2', 'ema2_defining_Ozone', 'ema2_defining_PM10', 'ema2_defining_PM2.5', 'ema2_defining_SO2', 'ema2_fugitive_air', 'ema2_stack_air', 'ema2_water', 'ema2_underground', 'ema2_underground_cl_i', 'ema2_underground_c_ii-v', 'ema2_landfills', 'ema2_rcra_c_landfill', 'ema2_other_landfills', 'ema2_land_treatment', 'ema2_surface_impndmnt', 'ema2_rcra_surface_im', 'ema2_other_surface_i', 'ema2_on-site_release_total', 'ema2_trns_rlse', 'ema2_trns_trt', 'ema2_total_transfers', 'ema2_m10', 'ema2_m41', 'ema2_m62', 'ema2_m40_metal', 'ema2_m61_metal', 'ema2_m71', 'ema2_m81', 'ema2_m82', 'ema2_m72', 'ema2_m63', 'ema2_m66', 'ema2_m67', 'ema2_m64', 'ema2_m65', 'ema2_m73', 'ema2_m79', 'ema2_m90', 'ema2_m94', 'ema2_m99', 'ema2_off-site_release_total', 'ema2_m20', 'ema2_m24', 'ema2_m26', 'ema2_m28', 'ema2_m93', 'ema2_off-site_recycled_total', 'ema2_m56', 'ema2_m92', 'ema2_m40_non-metal', 'ema2_m50', 'ema2_m54', 'ema2_m61_non-metal', 'ema2_m69', 'ema2_m95', 'ema2_off-site_treated_total', 'ema2_total_transfer', 'ema2_total_releases', 'ema2_releases', 'ema2_on-site_contained', 'ema2_off-site_contain', 'ema2_production_waste', 'ema2_sector_Apparel', 'ema2_sector_Beverages', 'ema2_sector_Chemical Wholesalers', 'ema2_sector_Chemicals', 'ema2_sector_Coal Mining', 'ema2_sector_Computers and Electronic Products', 'ema2_sector_Electric Utilities', 'ema2_sector_Electrical Equipment', 'ema2_sector_Fabricated Metals', 'ema2_sector_Food', 'ema2_sector_Furniture', 'ema2_sector_Hazardous Waste', 'ema2_sector_Leather', 'ema2_sector_Machinery', 'ema2_sector_Metal Mining', 'ema2_sector_Miscellaneous Manufacturing', 'ema2_sector_Nonmetallic Mineral Product', 'ema2_sector_Other', 'ema2_sector_Paper', 'ema2_sector_Petroleum', 'ema2_sector_Petroleum Bulk Terminals', 'ema2_sector_Plastics and Rubber', 'ema2_sector_Primary Metals', 'ema2_sector_Printing', 'ema2_sector_Publishing', 'ema2_sector_Textile Product', 'ema2_sector_Textiles', 'ema2_sector_Tobacco', 'ema2_sector_Transportation Equipment', 'ema2_sector_Wood Products', 'ema2_life_expectancy_avg', 'ema2_life_expectancy_max', 'ema2_life_expectancy_min', 'ema3_aqi', 'ema3_defining_CO', 'ema3_defining_NO2', 'ema3_defining_Ozone', 'ema3_defining_PM10', 'ema3_defining_PM2.5', 'ema3_defining_SO2', 'ema3_fugitive_air', 'ema3_stack_air', 'ema3_water', 'ema3_underground', 'ema3_underground_cl_i', 'ema3_underground_c_ii-v', 'ema3_landfills', 'ema3_rcra_c_landfill', 'ema3_other_landfills', 'ema3_land_treatment', 'ema3_surface_impndmnt', 'ema3_rcra_surface_im', 'ema3_other_surface_i', 'ema3_on-site_release_total', 'ema3_trns_rlse', 'ema3_trns_trt', 'ema3_total_transfers', 'ema3_m10', 'ema3_m41', 'ema3_m62', 'ema3_m40_metal', 'ema3_m61_metal', 'ema3_m71', 'ema3_m81', 'ema3_m82', 'ema3_m72', 'ema3_m63', 'ema3_m66', 'ema3_m67', 'ema3_m64', 'ema3_m65', 'ema3_m73', 'ema3_m79', 'ema3_m90', 'ema3_m94', 'ema3_m99', 'ema3_off-site_release_total', 'ema3_m20', 'ema3_m24', 'ema3_m26', 'ema3_m28', 'ema3_m93', 'ema3_off-site_recycled_total', 'ema3_m56', 'ema3_m92', 'ema3_m40_non-metal', 'ema3_m50', 'ema3_m54', 'ema3_m61_non-metal', 'ema3_m69', 'ema3_m95', 'ema3_off-site_treated_total', 'ema3_total_transfer', 'ema3_total_releases', 'ema3_releases', 'ema3_on-site_contained', 'ema3_off-site_contain', 'ema3_production_waste', 'ema3_sector_Apparel', 'ema3_sector_Beverages', 'ema3_sector_Chemical Wholesalers', 'ema3_sector_Chemicals', 'ema3_sector_Coal Mining', 'ema3_sector_Computers and Electronic Products', 'ema3_sector_Electric Utilities', 'ema3_sector_Electrical Equipment', 'ema3_sector_Fabricated Metals', 'ema3_sector_Food', 'ema3_sector_Furniture', 'ema3_sector_Hazardous Waste', 'ema3_sector_Leather', 'ema3_sector_Machinery', 'ema3_sector_Metal Mining', 'ema3_sector_Miscellaneous Manufacturing', 'ema3_sector_Nonmetallic Mineral Product', 'ema3_sector_Other', 'ema3_sector_Paper', 'ema3_sector_Petroleum', 'ema3_sector_Petroleum Bulk Terminals', 'ema3_sector_Plastics and Rubber', 'ema3_sector_Primary Metals', 'ema3_sector_Printing', 'ema3_sector_Publishing', 'ema3_sector_Textile Product', 'ema3_sector_Textiles', 'ema3_sector_Tobacco', 'ema3_sector_Transportation Equipment', 'ema3_sector_Wood Products', 'ema3_life_expectancy_avg', 'ema3_life_expectancy_max', 'ema3_life_expectancy_min']
+Considering Y Columns:
+['population', 'age-adjusted_rate', 'cancer_Brain and Other Nervous System', 'cancer_Breast', 'cancer_Cervix Uteri', 'cancer_Colon and Rectum', 'cancer_Corpus Uteri', 'cancer_Esophagus', 'cancer_Gallbladder', 'cancer_Kidney and Renal Pelvis', 'cancer_Larynx', 'cancer_Leukemias', 'cancer_Liver', 'cancer_Lung and Bronchus', 'cancer_Melanoma of the Skin', 'cancer_Myeloma', 'cancer_Non-Hodgkin Lymphoma', 'cancer_Oral Cavity and Pharynx', 'cancer_Ovary', 'cancer_Pancreas', 'cancer_Prostate', 'cancer_Stomach', 'cancer_Thyroid', 'cancer_Urinary Bladder, invasive and in situ', 'ema1_population', 'ema1_age-adjusted_rate', 'ema1_cancer_Brain and Other Nervous System', 'ema1_cancer_Breast', 'ema1_cancer_Cervix Uteri', 'ema1_cancer_Colon and Rectum', 'ema1_cancer_Corpus Uteri', 'ema1_cancer_Esophagus', 'ema1_cancer_Gallbladder', 'ema1_cancer_Kidney and Renal Pelvis', 'ema1_cancer_Larynx', 'ema1_cancer_Leukemias', 'ema1_cancer_Liver', 'ema1_cancer_Lung and Bronchus', 'ema1_cancer_Melanoma of the Skin', 'ema1_cancer_Myeloma', 'ema1_cancer_Non-Hodgkin Lymphoma', 'ema1_cancer_Oral Cavity and Pharynx', 'ema1_cancer_Ovary', 'ema1_cancer_Pancreas', 'ema1_cancer_Prostate', 'ema1_cancer_Stomach', 'ema1_cancer_Thyroid', 'ema1_cancer_Urinary Bladder, invasive and in situ', 'ema2_population', 'ema2_age-adjusted_rate', 'ema2_cancer_Brain and Other Nervous System', 'ema2_cancer_Breast', 'ema2_cancer_Cervix Uteri', 'ema2_cancer_Colon and Rectum', 'ema2_cancer_Corpus Uteri', 'ema2_cancer_Esophagus', 'ema2_cancer_Gallbladder', 'ema2_cancer_Kidney and Renal Pelvis', 'ema2_cancer_Larynx', 'ema2_cancer_Leukemias', 'ema2_cancer_Liver', 'ema2_cancer_Lung and Bronchus', 'ema2_cancer_Melanoma of the Skin', 'ema2_cancer_Myeloma', 'ema2_cancer_Non-Hodgkin Lymphoma', 'ema2_cancer_Oral Cavity and Pharynx', 'ema2_cancer_Ovary', 'ema2_cancer_Pancreas', 'ema2_cancer_Prostate', 'ema2_cancer_Stomach', 'ema2_cancer_Thyroid', 'ema2_cancer_Urinary Bladder, invasive and in situ', 'ema3_population', 'ema3_age-adjusted_rate', 'ema3_cancer_Brain and Other Nervous System', 'ema3_cancer_Breast', 'ema3_cancer_Cervix Uteri', 'ema3_cancer_Colon and Rectum', 'ema3_cancer_Corpus Uteri', 'ema3_cancer_Esophagus', 'ema3_cancer_Gallbladder', 'ema3_cancer_Kidney and Renal Pelvis', 'ema3_cancer_Larynx', 'ema3_cancer_Leukemias', 'ema3_cancer_Liver', 'ema3_cancer_Lung and Bronchus', 'ema3_cancer_Melanoma of the Skin', 'ema3_cancer_Myeloma', 'ema3_cancer_Non-Hodgkin Lymphoma', 'ema3_cancer_Oral Cavity and Pharynx', 'ema3_cancer_Ovary', 'ema3_cancer_Pancreas', 'ema3_cancer_Prostate', 'ema3_cancer_Stomach', 'ema3_cancer_Thyroid', 'ema3_cancer_Urinary Bladder, invasive and in situ']
+
+--- population -----------------------
+(0.07220969221544797, 'ema1_aqi')
+(0.07331043862418289, 'ema1_defining_PM2.5')
+(0.07355813049422363, 'ema3_total_releases')
+(0.09793774349071177, 'ema3_aqi')
+(0.09816151491121874, 'ema2_sector_Petroleum Bulk Terminals')
+MSE 0.0005442001879282742
+R2  0.9725893656007881
+--- age-adjusted_rate -----------------------
+(0.037471245275633176, 'ema1_on-site_contained')
+(0.0495450707160368, 'sector_Tobacco')
+(0.054671378886853673, 'ema2_defining_Ozone')
+(0.07971425004463621, 'ema1_aqi')
+(0.08346706576891023, 'ema3_aqi')
+MSE 0.0017427483634858494
+R2  0.885966064740516
+--- cancer_Brain and Other Nervous System -----------------------
+(0.05164972296233499, 'ema3_life_expectancy_max')
+(0.06581590951579616, 'ema3_life_expectancy_min')
+(0.10507312236257461, 'sector_Petroleum Bulk Terminals')
+(0.1054467569625383, 'ema3_aqi')
+(0.15726104688089013, 'ema3_sector_Petroleum Bulk Terminals')
+MSE 0.0005437574054808298
+R2  0.968055371070949
+--- cancer_Breast -----------------------
+(0.043185648237642114, 'ema3_defining_Ozone')
+(0.06499477827335752, 'ema2_sector_Petroleum Bulk Terminals')
+(0.06895078470193367, 'sector_Petroleum Bulk Terminals')
+(0.1295323145334797, 'ema3_sector_Petroleum Bulk Terminals')
+(0.19749943181182406, 'ema3_aqi')
+MSE 0.0006214592975707727
+R2  0.9637797294204475
+--- cancer_Cervix Uteri -----------------------
+(0.09463594682293107, 'aqi')
+(0.09520604694693344, 'sector_Petroleum Bulk Terminals')
+(0.09880653240575536, 'ema3_defining_PM2.5')
+(0.10439005614220251, 'ema3_sector_Petroleum Bulk Terminals')
+(0.15310616186526635, 'ema3_aqi')
+MSE 0.0006830125447223362
+R2  0.9622773749926835
+--- cancer_Colon and Rectum -----------------------
+(0.05913369768895504, 'ema1_sector_Petroleum Bulk Terminals')
+(0.0702940009965176, 'ema3_defining_PM2.5')
+(0.11043384172189413, 'ema3_aqi')
+(0.12961900596292897, 'ema3_sector_Petroleum Bulk Terminals')
+(0.13009777376451287, 'ema2_sector_Petroleum Bulk Terminals')
+MSE 0.0005644606237711403
+R2  0.9653775832826261
+--- cancer_Corpus Uteri -----------------------
+(0.04980726471461603, 'ema2_defining_PM2.5')
+(0.09087832564804336, 'ema2_sector_Petroleum Bulk Terminals')
+(0.09215450414243159, 'aqi')
+(0.10838140833553704, 'life_expectancy_min')
+(0.2346621662100555, 'ema3_aqi')
+MSE 0.0005272826402744356
+R2  0.9647819205566954
+--- cancer_Esophagus -----------------------
+(0.04841012577196871, 'life_expectancy_max')
+(0.061688086413200435, 'ema1_aqi')
+(0.07446699981096039, 'ema3_defining_PM2.5')
+(0.09184620787169963, 'ema2_life_expectancy_min')
+(0.16265698841913592, 'ema3_aqi')
+MSE 0.001001922444857022
+R2  0.9432513646716518
+--- cancer_Gallbladder -----------------------
+(0.06294344591710506, 'ema3_total_releases')
+(0.09411071042976205, 'ema3_sector_Petroleum Bulk Terminals')
+(0.09657978093765272, 'ema3_aqi')
+(0.10282208761479607, 'sector_Petroleum Bulk Terminals')
+(0.12635235487847782, 'defining_PM2.5')
+MSE 0.0012436006527626986
+R2  0.9159935712769751
+--- cancer_Kidney and Renal Pelvis -----------------------
+(0.06313763747841743, 'ema1_life_expectancy_min')
+(0.07904294749608405, 'life_expectancy_min')
+(0.09023489527449022, 'ema3_total_releases')
+(0.10365518902872857, 'ema2_sector_Petroleum Bulk Terminals')
+(0.1413137070810561, 'ema3_aqi')
+MSE 0.0006325406191137235
+R2  0.9622121027777222
+--- cancer_Larynx -----------------------
+(0.04056745482083692, 'ema3_sector_Petroleum Bulk Terminals')
+(0.06440216795216695, 'sector_Petroleum Bulk Terminals')
+(0.11109124037625777, 'ema2_sector_Petroleum Bulk Terminals')
+(0.13049180585413153, 'ema2_aqi')
+(0.2067028805468314, 'ema3_aqi')
+MSE 0.0008307330280390512
+R2  0.9466361629756125
+--- cancer_Leukemias -----------------------
+(0.04286843940694799, 'ema3_aqi')
+(0.10718803151028423, 'defining_PM2.5')
+(0.11959719539089606, 'ema2_defining_PM2.5')
+(0.11967637752087784, 'ema3_sector_Petroleum Bulk Terminals')
+(0.1669538532444501, 'aqi')
+MSE 0.0004373287376317481
+R2  0.9695641473119637
+--- cancer_Liver -----------------------
+(0.061337171096689166, 'ema3_total_releases')
+(0.061409287195314084, 'life_expectancy_min')
+(0.09461299428233316, 'aqi')
+(0.12360509121570745, 'ema3_sector_Petroleum Bulk Terminals')
+(0.1607637915169979, 'ema3_aqi')
+MSE 0.000572234058751225
+R2  0.969083271862253
+--- cancer_Lung and Bronchus -----------------------
+(0.06290439400365032, 'ema2_sector_Petroleum Bulk Terminals')
+(0.09425833666732801, 'ema2_aqi')
+(0.1041765919678888, 'ema1_aqi')
+(0.10458373281085971, 'defining_PM2.5')
+(0.14759860801566968, 'ema3_aqi')
+MSE 0.00046581543352082987
+R2  0.9720348408015839
+--- cancer_Melanoma of the Skin -----------------------
+(0.03896983373297197, 'ema3_sector_Computers and Electronic Products')
+(0.044121427770363174, 'ema2_sector_Petroleum Bulk Terminals')
+(0.05522502333044694, 'ema2_life_expectancy_max')
+(0.08774342926892718, 'ema1_defining_PM2.5')
+(0.20319750648941914, 'ema3_aqi')
+MSE 0.0009642273773162788
+R2  0.9503408309927448
+--- cancer_Myeloma -----------------------
+(0.060219761043660815, 'defining_PM2.5')
+(0.06890480484907782, 'sector_Petroleum Bulk Terminals')
+(0.07927928360612009, 'ema2_defining_PM2.5')
+(0.11330286412055235, 'ema3_life_expectancy_max')
+(0.1576539645989912, 'aqi')
+MSE 0.0006786218735945181
+R2  0.9485466281173912
+--- cancer_Non-Hodgkin Lymphoma -----------------------
+(0.06608353542530734, 'ema2_aqi')
+(0.06791505352608507, 'ema3_aqi')
+(0.08588522051881735, 'ema1_aqi')
+(0.102311311552117, 'ema1_life_expectancy_max')
+(0.14594599736113273, 'ema2_sector_Petroleum Bulk Terminals')
+MSE 0.0004974731491804255
+R2  0.9676601118376831
+--- cancer_Oral Cavity and Pharynx -----------------------
+(0.04881863294681921, 'ema2_aqi')
+(0.0674541093109615, 'ema2_sector_Petroleum Bulk Terminals')
+(0.06929409260664167, 'ema3_life_expectancy_min')
+(0.09575123423346825, 'sector_Petroleum Bulk Terminals')
+(0.11258078295484089, 'ema3_aqi')
+MSE 0.0006465345071159367
+R2  0.964300768768866
+--- cancer_Ovary -----------------------
+(0.06709439238495706, 'ema1_sector_Petroleum Bulk Terminals')
+(0.08343960059818346, 'ema3_sector_Petroleum Bulk Terminals')
+(0.09103342633146352, 'ema1_aqi')
+(0.11576992837704667, 'ema2_sector_Petroleum Bulk Terminals')
+(0.14963908546920063, 'ema3_aqi')
+MSE 0.0008041795842687339
+R2  0.9492096476556235
+--- cancer_Pancreas -----------------------
+(0.0484739608620276, 'ema3_sector_Petroleum Bulk Terminals')
+(0.07076553682384885, 'ema1_life_expectancy_min')
+(0.1233176697351459, 'aqi')
+(0.12791179191748858, 'ema3_aqi')
+(0.1413200945767444, 'ema1_aqi')
+MSE 0.0005043354429763337
+R2  0.9673747999821724
+--- cancer_Prostate -----------------------
+(0.07027786674409639, 'ema3_aqi')
+(0.07180477700978584, 'aqi')
+(0.14436337315149272, 'defining_PM2.5')
+(0.15921883283926877, 'ema3_sector_Petroleum Bulk Terminals')
+(0.16307790141398265, 'ema1_aqi')
+MSE 0.0006095284178936094
+R2  0.9459053017626745
+--- cancer_Stomach -----------------------
+(0.08192642071471463, 'sector_Petroleum Bulk Terminals')
+(0.08411258335586844, 'ema2_sector_Petroleum Bulk Terminals')
+(0.09376917239160791, 'life_expectancy_min')
+(0.10774377786707816, 'aqi')
+(0.11789924255154492, 'ema2_defining_PM2.5')
+MSE 0.0005873055329767887
+R2  0.960195723217205
+--- cancer_Thyroid -----------------------
+(0.05136501140287535, 'ema1_life_expectancy_min')
+(0.06341624390707731, 'life_expectancy_min')
+(0.078348392932617, 'ema1_defining_PM2.5')
+(0.168285304792596, 'sector_Petroleum Bulk Terminals')
+(0.20508891687434092, 'ema3_aqi')
+MSE 0.0004310442256370029
+R2  0.9671179917670639
+--- cancer_Urinary Bladder, invasive and in situ -----------------------
+(0.05692084838659422, 'ema2_life_expectancy_max')
+(0.06793754228155931, 'ema3_life_expectancy_max')
+(0.1038102517256496, 'ema3_aqi')
+(0.10546173400229059, 'ema2_defining_PM2.5')
+(0.15708453715927187, 'ema2_sector_Petroleum Bulk Terminals')
+MSE 0.0004991221937849028
+R2  0.9689775537481888
