@@ -1,0 +1,25 @@
+TRI
+https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2017
+
+Hospital Patient Data
+https://data.chhs.ca.gov/dataset/hospital-inpatient-characteristics-by-patient-county-of-residence/resource/9e6bdf9f-a029-4713-9626-793b20d40ecb
+
+Cancer (WONDER Dataset)
+https://wonder.cdc.gov/controller/saved/D151/D71F287
+
+Daily AQI
+https://aqs.epa.gov/aqsweb/airdata/download_files.html#Raw
+
+Life Exp.
+https://catalog.data.gov/dataset/u-s-life-expectancy-at-birth-by-state-and-census-tract-2017
+
+== Structure of data/raw ==
+
+aqi/
+    daily_aqi_by_county_20... for all AQI from 2010 to 2016
+
+health/
+    Cancer, hospital, and life exp data sets as separate CSVs
+
+tri/
+    all TRI CSVs from 2010 to 2016
