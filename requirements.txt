@@ -4,3 +4,5 @@ numpy
 jupyterlab
 matplotlib
 geocoder
+pydotplus
+pillow
