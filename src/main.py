@@ -32,6 +32,7 @@ def fit_predict(x_tr, y_tr, x_te, y_te, label):
 
     return gbm
 
+    # CODE TO ADD JITTER
     # noise = np.random.normal(0, 1, len(x_test)) * 0.05
     #
     # print("With noise:")
